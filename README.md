@@ -20,6 +20,7 @@
 | Saifur Rahman |   |
 | Omid Ayoobe |   |
 | Kevin Roditi |   |
+| Roland Dan |   |
 
 **Objective/Scope**
 
