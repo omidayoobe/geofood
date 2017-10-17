@@ -3,6 +3,7 @@
 **IS52018C Software Projects 2017**
 
 | **Project Name** | GeoFoodd |
+| --- | --- |
 | **Project Number** |  |
 | **Document Start Date** | 10.10.2017 |
 | **Business Plan Objective** | Use QR codes from source to supermarket to track who grew the food, where it was grown and how it got into your hands |
