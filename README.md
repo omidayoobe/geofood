@@ -2,18 +2,16 @@
 
 **IS52018C Software Projects 2017**
 
-| **Project Name** | |
-| --- | --- |
-| **Project Number** |   |
+| **Project Name** | GeoFoodd |
+| **Project Number** |  |
 | **Document Start Date** | 10.10.2017 |
-| **Business Plan Objective** |   |
+| **Business Plan Objective** | Use QR codes from source to supermarket to track who grew the food, where it's been and how it got into your hands |
 | **Sponsor/Supervisor** | Nikolay Nikolaev |
 | **Project Manager** | Harley Wright |
 
 **Budget/Hours**
 
 | **Resource Name** | **Budget/Hours** |
-| --- | --- |
 | Harley Wright |   |
 | Marcell Batta |   |
 | Wojtek Tyziniec |   |
