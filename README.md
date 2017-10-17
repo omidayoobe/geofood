@@ -2,7 +2,7 @@
 
 **IS52018C Software Projects 2017**
 
-| **Project Name** | GeoFoodd |
+| **Project Name** | **GeoFood** |
 | --- | --- |
 | **Project Number** |  |
 | **Document Start Date** | 10.10.2017 |
