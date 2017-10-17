@@ -43,6 +43,7 @@
 | 17/10/2017 | [011](https://trello.com/c/wjrnzeCr/41-011-use-the-scenarios-from-010-to-produce-a-full-activity-diagram) | Not Started |  |
 | 17/10/2017 | [012](https://trello.com/c/o5CQ5RA5/42-012-meeting-with-nikolay) | Not Started | All: |
 | 17/10/2017 | [013](https://trello.com/c/q1j4DXaD/43-install-slack-on-your-mobile-phone) | In Progress | H/W/R: 0.01 |
+| 17/10/2017 | [014](https://trello.com/c/iFpiuI0A/44-014-make-a-temporary-banner-image-for-the-repo-on-github) | Complete | Wojtek: 0.17 |
 
 
 **Milestone Revision Plan**
@@ -62,7 +63,7 @@
 | **Resource Name** | **Hours Used** | **Hours Remaining** | **Revision Date** |
 | --- | --- | --- | --- |
 | Harley Wright | 3.42 | 246.58 | 17/10/2017 |
-| Wojtek Tyziniec | 3.01 | 246.99 | 17/10/2017 |
+| Wojtek Tyziniec | 3.18 | 246.82 | 17/10/2017 |
 | Saifur Rahman | 2.5 | 247.5 | 17/10/2017 |
 | Omid Ayoobe | 2.5 | 247.5 | 17/10/2017 |
 | Kevin Roditi | 2.5 | 247.5 | 17/10/2017 |
