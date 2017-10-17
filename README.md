@@ -12,12 +12,15 @@
 **Budget/Hours**
 
 | **Resource Name** | **Budget/Hours** |
-| Harley Wright |  |
-| Marcell Batta |  |
-| Wojtek Tyziniec |  |
-| Saifur Rahman |  |
-| Omid Ayoobe |  |
-| Kevin Roditi |  |
+| --- | --- |
+| Harley Wright |   |
+| Marcell Batta |   |
+| Wojtek Tyziniec |   |
+| Saifur Rahman |   |
+| Omid Ayoobe |   |
+| Kevin Roditi |   |
+| Roland Dan |   |
+| Abul Siddique |   |
 
 **Objective/Scope**
 
