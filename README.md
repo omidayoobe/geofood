@@ -1,6 +1,4 @@
-# **Project Progress Tracking Form**
-
-**IS52018C Software Projects 2017**
+<img src="http://doc.gold.ac.uk/~wtyzi001/banner.png">
 
 | **Project Name** | **GeoFood** |
 | --- | --- |
