@@ -21,6 +21,7 @@
 | Kevin Roditi | 250 |
 | Roland Dan | 250 |
 | Abul Siddique | 250 |
+| Marcell Batta | 250 |
 
 **Objective/Scope**
 
@@ -31,14 +32,20 @@
 
 | **Date** | **Task ID** | **Status** | **Resources Used: Name &amp; Hours** |
 | --- | --- | --- | --- |
-| 13/10/2017 1200-1330 | 001 | Complete | All: 1.5hr|
-| 17/10/2017 1000-1100 | 002 | Complete | All: 1.0hrs|
-| 17/10/2017 | 003 | In Progress | All : 0.5hrs |
-| 17/10/2017 | 004 | Complete | Harley: 0.08hrs |
-| 17/10/2017 | 005 | Complete | Harley: 0.33hrs |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
+| 13/10/2017 | 001 | Complete | All: 1.5|
+| 17/10/2017 | 002 | Complete | All: 1.0|
+| 17/10/2017 | 003 | In Progress | H/W/R : 0.5 |
+| 17/10/2017 | 004 | Complete | Harley: 0.08 |
+| 17/10/2017 | 005 | Complete | Harley: 0.33 |
+| 17/10/2017 | 006 | Not Started | Abul/Roland: |
+| 17/10/2017 | 007 | Not Started | Kevin/Saifur: |
+| 17/10/2017 | 008 | Not Started | Marcell/Omid: |
+| 17/10/2017 | 009 | Not Started | Wojtek: |
+| 17/10/2017 | 010 | Not Started | Harley: |
+| 17/10/2017 | 011 | Not Started |  |
+| 17/10/2017 | 012 | Not Started | All: |
+| 17/10/2017 | 013 | In Progress | H/W/R: 0.01 |
+
 
 **Milestone Revision Plan**
 
@@ -56,10 +63,11 @@
 
 | **Resource Name** | **Hours Used** | **Hours Remaining** | **Revision Date** |
 | --- | --- | --- | --- |
-| Harley Wright | 3.41 | 246.59 | 17/10/2017 |
-| Wojtek Tyziniec | 3.0 | 247.0 | 17/10/2017 |
+| Harley Wright | 3.42 | 246.58 | 17/10/2017 |
+| Wojtek Tyziniec | 3.01 | 246.99 | 17/10/2017 |
 | Saifur Rahman | 2.5 | 247.5 | 17/10/2017 |
 | Omid Ayoobe | 2.5 | 247.5 | 17/10/2017 |
 | Kevin Roditi | 2.5 | 247.5 | 17/10/2017 |
-| Roland Dan | 2.5 | 247.5 | 17/10/2017 |
+| Roland Dan | 3.01 | 246.99 | 17/10/2017 |
 | Abul Siddique | 2.5 | 247.5 | 17/10/2017 |
+| Marcell Batta | 2.5 | 247.5 | 17/10/2017 |
