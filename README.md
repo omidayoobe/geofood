@@ -41,7 +41,7 @@
 | 17/10/2017 | [009](https://trello.com/c/TYVVXdH5/39-009-confirm-information-handled-and-where-it-comes-from) | Not Started | Wojtek: |
 | 17/10/2017 | [010](https://trello.com/c/zcU9BYgJ/40-010-sketch-preliminary-use-case-diagram-and-use-scenarios) | Not Started | Harley: |
 | 17/10/2017 | [011](https://trello.com/c/wjrnzeCr/41-011-use-the-scenarios-from-010-to-produce-a-full-activity-diagram) | Not Started |  |
-| 17/10/2017 | [012](https://trello.com/c/o5CQ5RA5/42-012-meeting-with-nikolay) | Complete | H/W/S/R/M: 0.5 |
+| 18/10/2017 | [012](https://trello.com/c/o5CQ5RA5/42-012-meeting-with-nikolay) | Complete | H/W/S/R/M: 0.5 |
 | 17/10/2017 | [013](https://trello.com/c/q1j4DXaD/43-install-slack-on-your-mobile-phone) | In Progress | H/W/R/M: 0.01 |
 | 17/10/2017 | [014](https://trello.com/c/iFpiuI0A/44-014-make-a-temporary-banner-image-for-the-repo-on-github) | Complete | Wojtek: 0.17 |
 
