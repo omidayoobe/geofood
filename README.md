@@ -62,11 +62,11 @@
 
 | **Resource Name** | **Hours Used** | **Hours Remaining** | **Revision Date** |
 | --- | --- | --- | --- |
-| Harley Wright | 3.92 | 246.08 | 17/10/2017 |
-| Wojtek Tyziniec | 3.68 | 246.32 | 17/10/2017 |
-| Saifur Rahman | 3.0 | 247.0 | 17/10/2017 |
-| Omid Ayoobe | 2.5 | 247.5 | 17/10/2017 |
-| Kevin Roditi | 2.5 | 247.5 | 17/10/2017 |
-| Roland Dan | 3.51 | 246.49 | 17/10/2017 |
-| Abul Siddique | 2.5 | 247.5 | 17/10/2017 |
-| Marcell Batta | 3.0 | 247.0 | 17/10/2017 |
+| Harley Wright | 3.92 | 246.08 | 18/10/2017 |
+| Wojtek Tyziniec | 3.68 | 246.32 | 18/10/2017 |
+| Saifur Rahman | 3.0 | 247.0 | 18/10/2017 |
+| Omid Ayoobe | 2.5 | 247.5 | 18/10/2017 |
+| Kevin Roditi | 2.5 | 247.5 | 18/10/2017 |
+| Roland Dan | 3.51 | 246.49 | 18/10/2017 |
+| Abul Siddique | 2.5 | 247.5 | 18/10/2017 |
+| Marcell Batta | 3.0 | 247.0 | 18/10/2017 |
