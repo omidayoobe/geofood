@@ -44,7 +44,8 @@
 | 18/10/2017 | [012](https://trello.com/c/o5CQ5RA5/42-012-meeting-with-nikolay) | Complete | H/W/S/R/M: 0.5 |
 | 17/10/2017 | [013](https://trello.com/c/q1j4DXaD/43-install-slack-on-your-mobile-phone) | In Progress | H/W/R/M: 0.01 |
 | 17/10/2017 | [014](https://trello.com/c/iFpiuI0A/44-014-make-a-temporary-banner-image-for-the-repo-on-github) | Complete | Wojtek: 0.17 |
-
+| 24/10/2017 | [015](https://trello.com/c/SfQj6QBn/45-015-meeting-with-nikolay) | Not Started |  |
+| 22/10/2017 | [016](https://trello.com/c/F0GGNVa2/46-016-combine-tasks-006-007-008-009-010-011-into-one-document-which-well-bring-to-the-meeting-with-nikolay) | Not Started |  |
 
 **Milestone Revision Plan**
 
