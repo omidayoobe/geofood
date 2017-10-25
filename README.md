@@ -12,7 +12,6 @@
 
 | **Resource Name** | **Budget/Hours** |
 | --- | --- |
-| Harley Wright | 250  |
 | Wojtek Tyziniec | 250  |
 | Saifur Rahman | 250 |
 | Omid Ayoobe | 250 |
@@ -20,6 +19,8 @@
 | Roland Dan | 250 |
 | Abul Siddique | 250 |
 | Marcell Batta | 250 |
+| <del>Harley Wright | <del> 250  |
+
 
 **Objective/Scope**
 
@@ -35,7 +36,7 @@
 | 17/10/2017 | [003](https://trello.com/c/PqpkoIDO/27-markdown) | Complete | All : 0.5 |
 | 17/10/2017 | [004](https://trello.com/c/YDeKTedu/32-004-book-meeting-with-nickolay) | Complete | Harley: 0.08 |
 | 17/10/2017 | [005](https://trello.com/c/tj0tDJlu/35-005-format-and-fill-out-readmemd) | Complete | Harley: 0.33 |
-| 17/10/2017 | [**006**](https://trello.com/c/P0XjnUmJ/36-006-draft-personas) | Not Started | Abul/Roland: |
+| 17/10/2017 | [**006**](https://trello.com/c/P0XjnUmJ/36-006-draft-personas) | Complete | Abul/Roland: |
 | 17/10/2017 | [007](https://trello.com/c/WqhfhAUy/37-007-consider-stakeholders) | Complete | Kevin/Saifur: 1.0/0.5 |
 | 17/10/2017 | [008](https://trello.com/c/lezoIegj/38-008-draft-potential-user-base) | Complete | Marcell/Omid: 0.83/1.08 |
 | 17/10/2017 | [009](https://trello.com/c/TYVVXdH5/39-009-confirm-information-handled-and-where-it-comes-from) | Complete | Wojtek: 1.0 |
@@ -63,7 +64,6 @@
 
 | **Resource Name** | **Hours Used** | **Hours Remaining** | **Revision Date** |
 | --- | --- | --- | --- |
-| Harley Wright | 5.0 | 245.0 | 25/10/2017 |
 | Wojtek Tyziniec | 5.34 | 244.66 | 25/10/2017 |
 | Saifur Rahman | 4.34 | 245.66 | 25/10/2017 |
 | Omid Ayoobe | 4.42 | 245.58 | 25/10/2017 |
@@ -71,3 +71,5 @@
 | Roland Dan | 3.84 | 246.16 | 25/10/2017 |
 | Abul Siddique | 3.34 | 246.66 | 25/10/2017 |
 | Marcell Batta | 4.67 | 245.33 | 25/10/2017 |
+| Harley Wright | 5.0 | 245.0 | 25/10/2017 |
+
