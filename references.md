@@ -6,7 +6,7 @@
 ## Online articles
 - Qr-code-generator.com. (2017). QR Code Basics. [online] Available at: http://www.qr-code-generator.com/qr-code-marketing/qr-codes-basics/ [Accessed 29 Oct. 2017].
 
-## Websites:
+## Websites
 
 - Advantages and Disadvantages of QR code. 2017. Advantages and Disadvantages of QR code. [ONLINE] Available at:       http://www.estateqrcodes.com/advantages-disadvantages.html. [Accessed 30 October 2017].
 
