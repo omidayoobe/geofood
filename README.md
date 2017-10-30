@@ -54,8 +54,17 @@
 | 26/10/2017 | [021](https://trello.com/c/FHbDTZFh/51-021-create-a-more-detailed-use-case-diagram-for-geofood-non-consumer-mobile-app) | Complete | Wojtek: 0.5 |
 | 26/10/2017 | [022](https://trello.com/c/l8eqxxHH/52-022-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-consumer-mobile-app) | Not Started | Marcell: |
 | 26/10/2017 | [023](https://trello.com/c/lKUMfF49/53-023-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-website) | Not Started | Roland: |
-| 26/10/2017 | [024](https://trello.com/c/cJ8cW9QP/54-024-create-a-more-detailed-use-case-diagram-for-geofood-database) | Not Started |  |
-| 26/10/2017 | [025](https://trello.com/c/Rn93bgyV/55-025-merge-all-diagrams-into-one-document) | Not Started |  |
+| 26/10/2017 | [024](https://trello.com/c/cJ8cW9QP/54-024-create-a-more-detailed-use-case-diagram-for-geofood-database) | Not Started | Wojtek: |
+| 26/10/2017 | [025](https://trello.com/c/Rn93bgyV/55-025-merge-all-diagrams-into-one-document) | Not Started | Wojtek:  |
+| 27/10/2017 | [026](https://trello.com/c/1NkEnQCY/56-026-write-a-software-requirements-specifications-document) | Not Started | All:  |
+| 29/10/2017 | [027](https://trello.com/c/LuFsUQIL/57-027-write-functional-requirements-to-support-use-case-geofood-non-consumer-mobile-app) | Not Started | Wojtek:  |
+| 29/10/2017 | [028](https://trello.com/c/sH0yvh9f/58-028-write-functional-requirements-to-support-use-case-geofood-consumer-mobile-app) | Not Started | Marcell:  |
+| 29/10/2017 | [029](https://trello.com/c/w2E0ERxa/59-029-write-functional-requirements-to-support-use-case-geofood-website) | Not Started | Roland:  |
+| 29/10/2017 | [030](https://trello.com/c/0jRxQOIp/60-030-write-functional-requirements-to-support-use-case-geofood-database-webservice) | Not Started | Omid:  |
+| 31/10/2017 | [031](https://trello.com/c/2hbf9F8v/61-031-meeting-with-nikolay) | Not Started | All:  |
+| 31/10/2017 | [032](https://trello.com/c/OjceYkiq/62-032-verify-task-019-anything-else-you-can-think-of) | Not Started | Kevin:  |
+
+
 
 
 **Milestone Revision Plan**
