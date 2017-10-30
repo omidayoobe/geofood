@@ -6,7 +6,7 @@
 | **Document Start Date** | 10.10.2017 |
 | **Business Plan Objective** | Use QR codes from source to supermarket to track who grew the food, where it was grown and how it got into your hands |
 | **Sponsor/Supervisor** | Nikolay Nikolaev |
-| **Project Manager** | Harley Wright |
+| **Project Manager** | Wojciech Tyziniec |
 
 **Budget/Hours**
 
@@ -36,7 +36,7 @@
 | 17/10/2017 | [003](https://trello.com/c/PqpkoIDO/27-markdown) | Complete | All : 0.5 |
 | 17/10/2017 | [004](https://trello.com/c/YDeKTedu/32-004-book-meeting-with-nickolay) | Complete | Harley: 0.08 |
 | 17/10/2017 | [005](https://trello.com/c/tj0tDJlu/35-005-format-and-fill-out-readmemd) | Complete | Harley: 0.33 |
-| 17/10/2017 | [006](https://trello.com/c/P0XjnUmJ/36-006-draft-personas) | Complete | Abul/Roland: | 0.75/2.5
+| 17/10/2017 | [006](https://trello.com/c/P0XjnUmJ/36-006-draft-personas) | Complete | Abul/Roland: 0.75/2.5 |
 | 17/10/2017 | [007](https://trello.com/c/WqhfhAUy/37-007-consider-stakeholders) | Complete | Kevin/Saifur: 1.0/0.5 |
 | 17/10/2017 | [008](https://trello.com/c/lezoIegj/38-008-draft-potential-user-base) | Complete | Marcell/Omid: 0.83/1.08 |
 | 17/10/2017 | [009](https://trello.com/c/TYVVXdH5/39-009-confirm-information-handled-and-where-it-comes-from) | Complete | Wojtek: 1.0 |
