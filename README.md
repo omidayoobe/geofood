@@ -52,7 +52,7 @@
 | 25/10/2017 | [019](https://trello.com/c/qQnokfFZ/49-019-look-for-any-regulations-and-standards-that-will-constrain-the-concept-eg-think-about-product-labels) | Complete | Abul/Saifur: 0.5/0.5 |
 | 25/10/2017 | [020](https://trello.com/c/jh6HApE8/50-020-search-for-competing-products-directly-and-from-reviews-trade-sites-press-reviews-and-customer-reviews) | Complete | Omid/Kevin: 2.17/1.5  |
 | 26/10/2017 | [021](https://trello.com/c/FHbDTZFh/51-021-create-a-more-detailed-use-case-diagram-for-geofood-non-consumer-mobile-app) | Complete | Wojtek: 0.5 |
-| 26/10/2017 | [022](https://trello.com/c/l8eqxxHH/52-022-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-consumer-mobile-app) | Complete| Marcell: 0.5|
+| 26/10/2017 | [022](https://trello.com/c/l8eqxxHH/52-022-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-consumer-mobile-app) | Complete| Marcell: 1.0|
 | 26/10/2017 | [023](https://trello.com/c/lKUMfF49/53-023-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-website) | Complete | Roland: 2.0 |
 | 26/10/2017 | [024](https://trello.com/c/cJ8cW9QP/54-024-create-a-more-detailed-use-case-diagram-for-geofood-database) | Complete | Wojtek: 0.25 |
 | 26/10/2017 | [025](https://trello.com/c/Rn93bgyV/55-025-merge-all-diagrams-into-one-document) | Not Started | Wojtek:  |
@@ -89,6 +89,6 @@
 | Kevin Roditi | 6.51 | 243.49 | 31/10/2017 |
 | Roland Dan | 9.09 | 240.91 | 31/10/2017 |
 | Abul Siddique | 5.09 | 244.91 | 31/10/2017 |
-| Marcell Batta | 5.68 | 244.32 | 31/10/2017 |
+| Marcell Batta | 6.18 | 243.82 | 31/10/2017 |
 | Harley Wright | 5.0 | 245.0 | 25/10/2017 |
 
