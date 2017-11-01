@@ -49,20 +49,20 @@
 | 22/10/2017 | [016](https://trello.com/c/F0GGNVa2/46-016-combine-tasks-006-007-008-009-010-011-into-one-document-which-well-bring-to-the-meeting-with-nikolay) | Complete | Wojtek: 0.33 |
 | 25/10/2017 | [017](https://trello.com/c/wfGDN1zC/47-017-ask-nick-about-weekly-reports) | Complete | Marcell: 0.1 |
 | 25/10/2017 | [018](https://trello.com/c/ZjtQnaZa/48-018-update-progress-tracking-form) | Complete | Wojtek: 0.33 |
-| 25/10/2017 | [019](https://trello.com/c/qQnokfFZ/49-019-look-for-any-regulations-and-standards-that-will-constrain-the-concept-eg-think-about-product-labels) | Not Started | Abul/Saifur: |
-| 25/10/2017 | [020](https://trello.com/c/jh6HApE8/50-020-search-for-competing-products-directly-and-from-reviews-trade-sites-press-reviews-and-customer-reviews) | Not Started | Omid/Kevin: |
+| 25/10/2017 | [019](https://trello.com/c/qQnokfFZ/49-019-look-for-any-regulations-and-standards-that-will-constrain-the-concept-eg-think-about-product-labels) | Complete | Abul/Saifur: 0.5/0.5 |
+| 25/10/2017 | [020](https://trello.com/c/jh6HApE8/50-020-search-for-competing-products-directly-and-from-reviews-trade-sites-press-reviews-and-customer-reviews) | Complete | Omid/Kevin: 2.17/1.5  |
 | 26/10/2017 | [021](https://trello.com/c/FHbDTZFh/51-021-create-a-more-detailed-use-case-diagram-for-geofood-non-consumer-mobile-app) | Complete | Wojtek: 0.5 |
-| 26/10/2017 | [022](https://trello.com/c/l8eqxxHH/52-022-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-consumer-mobile-app) | Not Started | Marcell: |
-| 26/10/2017 | [023](https://trello.com/c/lKUMfF49/53-023-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-website) | Not Started | Roland: |
-| 26/10/2017 | [024](https://trello.com/c/cJ8cW9QP/54-024-create-a-more-detailed-use-case-diagram-for-geofood-database) | Not Started | Wojtek: |
+| 26/10/2017 | [022](https://trello.com/c/l8eqxxHH/52-022-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-consumer-mobile-app) | Complete| Marcell: 1.0|
+| 26/10/2017 | [023](https://trello.com/c/lKUMfF49/53-023-based-on-the-task-021-create-a-more-detailed-use-case-diagram-for-geofood-website) | Complete | Roland: 2.0 |
+| 26/10/2017 | [024](https://trello.com/c/cJ8cW9QP/54-024-create-a-more-detailed-use-case-diagram-for-geofood-database) | Complete | Wojtek: 0.25 |
 | 26/10/2017 | [025](https://trello.com/c/Rn93bgyV/55-025-merge-all-diagrams-into-one-document) | Not Started | Wojtek:  |
 | 27/10/2017 | [026](https://trello.com/c/1NkEnQCY/56-026-write-a-software-requirements-specifications-document) | Not Started | All:  |
-| 29/10/2017 | [027](https://trello.com/c/LuFsUQIL/57-027-write-functional-requirements-to-support-use-case-geofood-non-consumer-mobile-app) | Not Started | Wojtek:  |
-| 29/10/2017 | [028](https://trello.com/c/sH0yvh9f/58-028-write-functional-requirements-to-support-use-case-geofood-consumer-mobile-app) | Not Started | Marcell:  |
-| 29/10/2017 | [029](https://trello.com/c/w2E0ERxa/59-029-write-functional-requirements-to-support-use-case-geofood-website) | Not Started | Roland:  |
-| 29/10/2017 | [030](https://trello.com/c/0jRxQOIp/60-030-write-functional-requirements-to-support-use-case-geofood-database-webservice) | Not Started | Omid:  |
+| 29/10/2017 | [027](https://trello.com/c/LuFsUQIL/57-027-write-functional-requirements-to-support-use-case-geofood-non-consumer-mobile-app) | In progress | Wojtek: 0.75 |
+| 29/10/2017 | [028](https://trello.com/c/sH0yvh9f/58-028-write-functional-requirements-to-support-use-case-geofood-consumer-mobile-app) | Complete | Marcell: 0.5 |
+| 29/10/2017 | [029](https://trello.com/c/w2E0ERxa/59-029-write-functional-requirements-to-support-use-case-geofood-website) | Complete | Roland: 0.75 |
+| 29/10/2017 | [030](https://trello.com/c/0jRxQOIp/60-030-write-functional-requirements-to-support-use-case-geofood-database-webservice) | Complete | Omid: 0.33 |
 | 31/10/2017 | [031](https://trello.com/c/2hbf9F8v/61-031-meeting-with-nikolay) | Not Started | All:  |
-| 31/10/2017 | [032](https://trello.com/c/OjceYkiq/62-032-verify-task-019-anything-else-you-can-think-of) | Not Started | Kevin:  |
+| 31/10/2017 | [032](https://trello.com/c/OjceYkiq/62-032-verify-task-019-anything-else-you-can-think-of) | Complete | Kevin: 1.0 |
 
 
 
@@ -83,12 +83,12 @@
 
 | **Resource Name** | **Hours Used** | **Hours Remaining** | **Revision Date** |
 | --- | --- | --- | --- |
-| Wojtek Tyziniec | 6.17 | 243.83 | 26/10/2017 |
-| Saifur Rahman | 4.34 | 245.66 | 25/10/2017 |
-| Omid Ayoobe | 4.42 | 245.58 | 25/10/2017 |
-| Kevin Roditi | 4.01 | 245.99 | 25/10/2017 |
-| Roland Dan | 6.34 | 243.66 | 26/10/2017 |
-| Abul Siddique | 4.09 | 245.91 | 26/10/2017 |
-| Marcell Batta | 4.68 | 245.32 | 26/10/2017 |
+| Wojtek Tyziniec | 7.67 | 242.33 | 31/10/2017 |
+| Saifur Rahman | 5.34 | 244.66 | 31/10/2017 |
+| Omid Ayoobe | 6.91 | 243.09 | 31/10/2017 |
+| Kevin Roditi | 6.51 | 243.49 | 31/10/2017 |
+| Roland Dan | 9.09 | 240.91 | 31/10/2017 |
+| Abul Siddique | 5.09 | 244.91 | 31/10/2017 |
+| Marcell Batta | 6.18 | 243.82 | 31/10/2017 |
 | Harley Wright | 5.0 | 245.0 | 25/10/2017 |
 
