@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/wtznc/Desktop/geofood/iOS/GeoFood/GeoFood.xcodeproj">
+      location = "self:GeoFood.xcodeproj">
    </FileRef>
 </Workspace>
