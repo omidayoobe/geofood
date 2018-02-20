@@ -30,10 +30,8 @@
 		B63020D2203C7BC400AA6FA8 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 		B63020D4203C7BCC00AA6FA8 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		B6E9E18E203C76C200C8E08E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		C6164C1B1984D1CD00F8F7D7 /* SnapchatSwipeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatSwipeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6164C1B1984D1CD00F8F7D7 /* GeoFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6164C1F1984D1CD00F8F7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6164C321984D1CD00F8F7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6164C331984D1CD00F8F7D7 /* SnapchatSwipeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatSwipeViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +68,7 @@
 		C6164C121984D1CD00F8F7D7 = {
 			isa = PBXGroup;
 			children = (
-				C6164C1D1984D1CD00F8F7D7 /* SnapchatSwipeView */,
-				C6164C301984D1CD00F8F7D7 /* SnapchatSwipeViewTests */,
+				C6164C1D1984D1CD00F8F7D7 /* GeoFood */,
 				C6164C1C1984D1CD00F8F7D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,12 +76,12 @@
 		C6164C1C1984D1CD00F8F7D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6164C1B1984D1CD00F8F7D7 /* SnapchatSwipeView.app */,
+				C6164C1B1984D1CD00F8F7D7 /* GeoFood.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6164C1D1984D1CD00F8F7D7 /* SnapchatSwipeView */ = {
+		C6164C1D1984D1CD00F8F7D7 /* GeoFood */ = {
 			isa = PBXGroup;
 			children = (
 				B63020CF203C7B6300AA6FA8 /* External Libraries */,
@@ -95,7 +92,7 @@
 				22D3F9191B87A81D00D132E3 /* Images.xcassets */,
 				C6164C1E1984D1CD00F8F7D7 /* Supporting Files */,
 			);
-			path = SnapchatSwipeView;
+			path = GeoFood;
 			sourceTree = "<group>";
 		};
 		C6164C1E1984D1CD00F8F7D7 /* Supporting Files */ = {
@@ -106,29 +103,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C6164C301984D1CD00F8F7D7 /* SnapchatSwipeViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				C6164C331984D1CD00F8F7D7 /* SnapchatSwipeViewTests.swift */,
-				C6164C311984D1CD00F8F7D7 /* Supporting Files */,
-			);
-			path = SnapchatSwipeViewTests;
-			sourceTree = "<group>";
-		};
-		C6164C311984D1CD00F8F7D7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6164C321984D1CD00F8F7D7 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6164C1A1984D1CD00F8F7D7 /* SnapchatSwipeView */ = {
+		C6164C1A1984D1CD00F8F7D7 /* GeoFood */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6164C371984D1CD00F8F7D7 /* Build configuration list for PBXNativeTarget "SnapchatSwipeView" */;
+			buildConfigurationList = C6164C371984D1CD00F8F7D7 /* Build configuration list for PBXNativeTarget "GeoFood" */;
 			buildPhases = (
 				C6164C171984D1CD00F8F7D7 /* Sources */,
 				C6164C181984D1CD00F8F7D7 /* Frameworks */,
@@ -138,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = SnapchatSwipeView;
+			name = GeoFood;
 			productName = SnapchatSwipeView;
-			productReference = C6164C1B1984D1CD00F8F7D7 /* SnapchatSwipeView.app */;
+			productReference = C6164C1B1984D1CD00F8F7D7 /* GeoFood.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,12 +136,12 @@
 				TargetAttributes = {
 					C6164C1A1984D1CD00F8F7D7 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = M4MN9D24N8;
+						DevelopmentTeam = 3Q9A2E477A;
 						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = C6164C161984D1CD00F8F7D7 /* Build configuration list for PBXProject "SnapchatSwipeView" */;
+			buildConfigurationList = C6164C161984D1CD00F8F7D7 /* Build configuration list for PBXProject "GeoFood" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -174,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6164C1A1984D1CD00F8F7D7 /* SnapchatSwipeView */,
+				C6164C1A1984D1CD00F8F7D7 /* GeoFood */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +272,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = M4MN9D24N8;
-				INFOPLIST_FILE = SnapchatSwipeView/Info.plist;
+				DEVELOPMENT_TEAM = 3Q9A2E477A;
+				INFOPLIST_FILE = GeoFood/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = swiftmenugeofood;
-				PRODUCT_NAME = SnapchatSwipeView;
+				PRODUCT_BUNDLE_IDENTIFIER = wtnzc;
+				PRODUCT_NAME = GeoFood;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -308,12 +288,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = M4MN9D24N8;
-				INFOPLIST_FILE = SnapchatSwipeView/Info.plist;
+				DEVELOPMENT_TEAM = 3Q9A2E477A;
+				INFOPLIST_FILE = GeoFood/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = swiftmenugeofood;
-				PRODUCT_NAME = SnapchatSwipeView;
+				PRODUCT_BUNDLE_IDENTIFIER = wtnzc;
+				PRODUCT_NAME = GeoFood;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -321,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6164C161984D1CD00F8F7D7 /* Build configuration list for PBXProject "SnapchatSwipeView" */ = {
+		C6164C161984D1CD00F8F7D7 /* Build configuration list for PBXProject "GeoFood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6164C351984D1CD00F8F7D7 /* Debug */,
@@ -330,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6164C371984D1CD00F8F7D7 /* Build configuration list for PBXNativeTarget "SnapchatSwipeView" */ = {
+		C6164C371984D1CD00F8F7D7 /* Build configuration list for PBXNativeTarget "GeoFood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6164C381984D1CD00F8F7D7 /* Debug */,
