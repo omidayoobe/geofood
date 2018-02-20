@@ -145,7 +145,7 @@
 					C6164C1A1984D1CD00F8F7D7 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = 3Q9A2E477A;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -287,7 +287,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wtznc;
 				PRODUCT_NAME = GeoFood;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -302,7 +303,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wtznc;
 				PRODUCT_NAME = GeoFood;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
