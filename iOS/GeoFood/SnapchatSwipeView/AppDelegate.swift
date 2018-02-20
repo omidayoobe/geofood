@@ -10,16 +10,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let left = storyboard.instantiateViewController(withIdentifier: "left")
-        let middle = storyboard.instantiateViewController(withIdentifier: "middle")
+        let middle = storyboard.instantiateViewController(withIdentifier: "main")
         let right = storyboard.instantiateViewController(withIdentifier: "right")
         let top = storyboard.instantiateViewController(withIdentifier: "top")
-        let bottom = storyboard.instantiateViewController(withIdentifier: "bottom")
         
         let snapContainer = SnapContainerViewController.containerViewWith(left,
                                                                           middleVC: middle,
                                                                           rightVC: right,
                                                                           topVC: top,
-                                                                          bottomVC: bottom)
+                                                                          bottomVC: nil)
         self.window?.rootViewController = snapContainer
         self.window?.makeKeyAndVisible()
         return true

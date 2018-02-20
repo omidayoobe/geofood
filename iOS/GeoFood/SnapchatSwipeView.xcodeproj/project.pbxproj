@@ -13,6 +13,10 @@
 		22D3F91A1B87A81D00D132E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D3F9191B87A81D00D132E3 /* Images.xcassets */; };
 		22D3F92C1B87A8B800D132E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3F9201B87A8B800D132E3 /* AppDelegate.swift */; };
 		22D3F9311B87A8B800D132E3 /* SnapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3F9251B87A8B800D132E3 /* SnapContainerViewController.swift */; };
+		B63020D1203C7BB500AA6FA8 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63020D0203C7BB500AA6FA8 /* LeftViewController.swift */; };
+		B63020D3203C7BC400AA6FA8 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63020D2203C7BC400AA6FA8 /* RightViewController.swift */; };
+		B63020D5203C7BCC00AA6FA8 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63020D4203C7BCC00AA6FA8 /* TopViewController.swift */; };
+		B6E9E18F203C76C200C8E08E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9E18E203C76C200C8E08E /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		22D3F9191B87A81D00D132E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22D3F9201B87A8B800D132E3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D3F9251B87A8B800D132E3 /* SnapContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapContainerViewController.swift; sourceTree = "<group>"; };
+		B63020D0203C7BB500AA6FA8 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		B63020D2203C7BC400AA6FA8 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		B63020D4203C7BCC00AA6FA8 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		B6E9E18E203C76C200C8E08E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C6164C1B1984D1CD00F8F7D7 /* SnapchatSwipeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatSwipeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6164C1F1984D1CD00F8F7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6164C321984D1CD00F8F7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,13 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2200D71B1B87A97E0081389A /* Container View */ = {
+		2200D71B1B87A97E0081389A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6E9E18E203C76C200C8E08E /* MainViewController.swift */,
+				B63020D0203C7BB500AA6FA8 /* LeftViewController.swift */,
+				B63020D2203C7BC400AA6FA8 /* RightViewController.swift */,
+				B63020D4203C7BCC00AA6FA8 /* TopViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B63020CF203C7B6300AA6FA8 /* External Libraries */ = {
 			isa = PBXGroup;
 			children = (
 				22D3F9251B87A8B800D132E3 /* SnapContainerViewController.swift */,
 				22656DE91C1F67D700BF6959 /* VerticalScrollViewController.swift */,
 			);
-			name = "Container View";
+			name = "External Libraries";
 			sourceTree = "<group>";
 		};
 		C6164C121984D1CD00F8F7D7 = {
@@ -68,10 +87,11 @@
 		C6164C1D1984D1CD00F8F7D7 /* SnapchatSwipeView */ = {
 			isa = PBXGroup;
 			children = (
+				B63020CF203C7B6300AA6FA8 /* External Libraries */,
 				22656DED1C205A6800BF6959 /* Launch Screen.storyboard */,
 				22656DEB1C2059C100BF6959 /* Main.storyboard */,
 				22D3F9201B87A8B800D132E3 /* AppDelegate.swift */,
-				2200D71B1B87A97E0081389A /* Container View */,
+				2200D71B1B87A97E0081389A /* View Controllers */,
 				22D3F9191B87A81D00D132E3 /* Images.xcassets */,
 				C6164C1E1984D1CD00F8F7D7 /* Supporting Files */,
 			);
@@ -180,6 +200,10 @@
 				22656DEA1C1F67D700BF6959 /* VerticalScrollViewController.swift in Sources */,
 				22D3F9311B87A8B800D132E3 /* SnapContainerViewController.swift in Sources */,
 				22D3F92C1B87A8B800D132E3 /* AppDelegate.swift in Sources */,
+				B63020D1203C7BB500AA6FA8 /* LeftViewController.swift in Sources */,
+				B6E9E18F203C76C200C8E08E /* MainViewController.swift in Sources */,
+				B63020D3203C7BC400AA6FA8 /* RightViewController.swift in Sources */,
+				B63020D5203C7BCC00AA6FA8 /* TopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
