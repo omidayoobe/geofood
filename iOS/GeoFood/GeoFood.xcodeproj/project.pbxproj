@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		974A8402C156E20DD1171420 /* Pods_GeoFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B49D22541FC82BAFA61F158 /* Pods_GeoFood.framework */; };
+		B66B6298203CA910006D1ADD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B6297203CA910006D1ADD /* TestViewController.swift */; };
 		B6790C16203C98EF0004C79D /* SnapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6790C14203C98EF0004C79D /* SnapContainerViewController.swift */; };
 		B6790C17203C98EF0004C79D /* VerticalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6790C15203C98EF0004C79D /* VerticalScrollViewController.swift */; };
 		B6790C1C203C9C140004C79D /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6790C1B203C9C140004C79D /* RightViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		1B49D22541FC82BAFA61F158 /* Pods_GeoFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A923BB39127E86D9BCD73DB7 /* Pods-GeoFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoFood/Pods-GeoFood.release.xcconfig"; sourceTree = "<group>"; };
+		B66B6297203CA910006D1ADD /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		B6790C14203C98EF0004C79D /* SnapContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapContainerViewController.swift; sourceTree = "<group>"; };
 		B6790C15203C98EF0004C79D /* VerticalScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalScrollViewController.swift; sourceTree = "<group>"; };
 		B6790C1B203C9C140004C79D /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				B6AA19E4203C961E00A8BF7C /* MiddleViewController.swift */,
 				B6790C1B203C9C140004C79D /* RightViewController.swift */,
 				B6790C1D203C9CAE0004C79D /* TopViewController.swift */,
+				B66B6297203CA910006D1ADD /* TestViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				B6790C1E203C9CAE0004C79D /* TopViewController.swift in Sources */,
 				B6AA19E5203C961E00A8BF7C /* MiddleViewController.swift in Sources */,
+				B66B6298203CA910006D1ADD /* TestViewController.swift in Sources */,
 				B6790C17203C98EF0004C79D /* VerticalScrollViewController.swift in Sources */,
 				B6790C1C203C9C140004C79D /* RightViewController.swift in Sources */,
 				B6AA19E3203C961E00A8BF7C /* AppDelegate.swift in Sources */,
