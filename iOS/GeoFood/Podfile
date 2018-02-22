@@ -7,4 +7,5 @@ target 'GeoFood' do
   # Pods for GeoFood
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'paper-onboarding'
 end
