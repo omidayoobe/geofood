@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Yd8-gs-Teo">
+            <objects>
+                <viewController storyboardIdentifier="onboarding" id="Qjz-Ls-Zt4" customClass="ViewController" customModule="GeoFood" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ILg-Nl-Abp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lIQ-cl-HcE" customClass="OnboardingView" customModule="GeoFood" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Cr-iU-J0u">
+                                <rect key="frame" x="133" y="500" width="109" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="GET STARTED">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="gotStarted:" destination="Qjz-Ls-Zt4" eventType="touchUpInside" id="DoL-Ch-Nfm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lIQ-cl-HcE" firstAttribute="bottom" secondItem="OOa-Eq-kOz" secondAttribute="bottom" id="9hX-Zv-BkF"/>
+                            <constraint firstItem="OOa-Eq-kOz" firstAttribute="trailing" secondItem="lIQ-cl-HcE" secondAttribute="trailing" id="CuJ-qr-5Hp"/>
+                            <constraint firstItem="lIQ-cl-HcE" firstAttribute="top" secondItem="ILg-Nl-Abp" secondAttribute="top" id="m9z-Va-jqP"/>
+                            <constraint firstItem="lIQ-cl-HcE" firstAttribute="leading" secondItem="OOa-Eq-kOz" secondAttribute="leading" id="vBw-rf-kQk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OOa-Eq-kOz"/>
+                    </view>
+                    <connections>
+                        <outlet property="getStartedButton" destination="7Cr-iU-J0u" id="P70-aT-kpT"/>
+                        <outlet property="onboardingView" destination="lIQ-cl-HcE" id="cYW-wc-GHn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DFK-LJ-55i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221.59999999999999" y="-183.05847076461771"/>
+        </scene>
+    </scenes>
+</document>

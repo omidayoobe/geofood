@@ -16,12 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let onboardingStoryboard = UIStoryboard(name: "Onboarding", bundle: nil)
+        
         let left = storyboard.instantiateViewController(withIdentifier: "left")
         let middle = storyboard.instantiateViewController(withIdentifier: "middle")
         let right = storyboard.instantiateViewController(withIdentifier: "right")
         let top = storyboard.instantiateViewController(withIdentifier: "top")
         let snapContainer = SnapContainerViewController.containerViewWith(left, middleVC: middle, rightVC: right, topVC: top)
-        self.window?.rootViewController = snapContainer
+        
+        let onboardingViewController = onboardingStoryboard.instantiateViewController(withIdentifier: "onboarding")
+        self.window?.rootViewController = onboardingViewController
         self.window?.makeKeyAndVisible()
         application.isStatusBarHidden = true
         UIApplication.shared.isStatusBarHidden = true

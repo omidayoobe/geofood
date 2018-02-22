@@ -19,6 +19,9 @@
 		B6AA19E8203C961E00A8BF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA19E6203C961E00A8BF7C /* Main.storyboard */; };
 		B6AA19EA203C961E00A8BF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AA19E9203C961E00A8BF7C /* Assets.xcassets */; };
 		B6AA19ED203C961E00A8BF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA19EB203C961E00A8BF7C /* LaunchScreen.storyboard */; };
+		B6B142E8203F4B6900AD41E0 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B142E7203F4B6900AD41E0 /* Onboarding.storyboard */; };
+		B6B142EC203F4C0D00AD41E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B142EB203F4C0D00AD41E0 /* ViewController.swift */; };
+		B6B142EE203F4DB000AD41E0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B142ED203F4DB000AD41E0 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +32,7 @@
 		B6790C15203C98EF0004C79D /* VerticalScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalScrollViewController.swift; sourceTree = "<group>"; };
 		B6790C1B203C9C140004C79D /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 		B6790C1D203C9CAE0004C79D /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
-		B6790C1F203C9D6A0004C79D /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeftViewController.swift; path = GeoFood/Controllers/LeftViewController.swift; sourceTree = SOURCE_ROOT; };
+		B6790C1F203C9D6A0004C79D /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeftViewController.swift; path = GeoFood/Controllers/Main/LeftViewController.swift; sourceTree = SOURCE_ROOT; };
 		B6AA19DF203C961E00A8BF7C /* GeoFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AA19E2203C961E00A8BF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6AA19E4203C961E00A8BF7C /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +40,9 @@
 		B6AA19E9203C961E00A8BF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6AA19EC203C961E00A8BF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6AA19EE203C961E00A8BF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B142E7203F4B6900AD41E0 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		B6B142EB203F4C0D00AD41E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6B142ED203F4DB000AD41E0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		FCB1869A91B7B7DA711AAB1B /* Pods-GeoFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoFood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoFood/Pods-GeoFood.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +97,7 @@
 			children = (
 				B6AA19EB203C961E00A8BF7C /* LaunchScreen.storyboard */,
 				B6AA19E6203C961E00A8BF7C /* Main.storyboard */,
+				B6B142E7203F4B6900AD41E0 /* Onboarding.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -98,11 +105,8 @@
 		B6790C21203C9E900004C79D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B6790C1F203C9D6A0004C79D /* LeftViewController.swift */,
-				B6AA19E4203C961E00A8BF7C /* MiddleViewController.swift */,
-				B6790C1B203C9C140004C79D /* RightViewController.swift */,
-				B6790C1D203C9CAE0004C79D /* TopViewController.swift */,
-				B66B6297203CA910006D1ADD /* TestViewController.swift */,
+				B6B142EA203F4B9200AD41E0 /* Onboarding */,
+				B6B142E9203F4B8600AD41E0 /* Main */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,6 +139,27 @@
 				B6790C18203C990C0004C79D /* Supporting Files */,
 			);
 			path = GeoFood;
+			sourceTree = "<group>";
+		};
+		B6B142E9203F4B8600AD41E0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B6790C1F203C9D6A0004C79D /* LeftViewController.swift */,
+				B6AA19E4203C961E00A8BF7C /* MiddleViewController.swift */,
+				B6790C1B203C9C140004C79D /* RightViewController.swift */,
+				B6790C1D203C9CAE0004C79D /* TopViewController.swift */,
+				B66B6297203CA910006D1ADD /* TestViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B6B142EA203F4B9200AD41E0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B6B142EB203F4C0D00AD41E0 /* ViewController.swift */,
+				B6B142ED203F4DB000AD41E0 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		C8AE1155668C024992A9241A /* Pods */ = {
@@ -211,6 +236,7 @@
 				B6AA19ED203C961E00A8BF7C /* LaunchScreen.storyboard in Resources */,
 				B6AA19EA203C961E00A8BF7C /* Assets.xcassets in Resources */,
 				B6AA19E8203C961E00A8BF7C /* Main.storyboard in Resources */,
+				B6B142E8203F4B6900AD41E0 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +308,8 @@
 				B6790C1E203C9CAE0004C79D /* TopViewController.swift in Sources */,
 				B6AA19E5203C961E00A8BF7C /* MiddleViewController.swift in Sources */,
 				B66B6298203CA910006D1ADD /* TestViewController.swift in Sources */,
+				B6B142EE203F4DB000AD41E0 /* OnboardingView.swift in Sources */,
+				B6B142EC203F4C0D00AD41E0 /* ViewController.swift in Sources */,
 				B6790C17203C98EF0004C79D /* VerticalScrollViewController.swift in Sources */,
 				B6790C1C203C9C140004C79D /* RightViewController.swift in Sources */,
 				B6AA19E3203C961E00A8BF7C /* AppDelegate.swift in Sources */,
