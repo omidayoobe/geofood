@@ -29,7 +29,8 @@ class SnapContainerViewController: UIViewController, UIScrollViewDelegate {
     var middleVertScrollVc: VerticalScrollViewController!
     var scrollView: UIScrollView!
     var delegate: SnapContainerViewControllerDelegate?
-    
+   
+
     class func containerViewWith(_ leftVC: UIViewController,
                                  middleVC: UIViewController,
                                  rightVC: UIViewController,
@@ -49,6 +50,7 @@ class SnapContainerViewController: UIViewController, UIScrollViewDelegate {
     }
     
     override func viewDidLoad() {
+
         super.viewDidLoad()
         setupVerticalScrollView()
         setupHorizontalScrollView()
@@ -66,6 +68,7 @@ class SnapContainerViewController: UIViewController, UIScrollViewDelegate {
         scrollView.isPagingEnabled = true
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.bounces = false
+        scrollView.contentInsetAdjustmentBehavior = .never
         
         let view = (
             x: self.view.bounds.origin.x,
@@ -75,7 +78,7 @@ class SnapContainerViewController: UIViewController, UIScrollViewDelegate {
         )
 
         scrollView.frame = CGRect(x: view.x,
-                                  y: view.y,
+                                  y: view.y-1,
                                   width: view.width,
                                   height: view.height
         )
@@ -115,9 +118,11 @@ class SnapContainerViewController: UIViewController, UIScrollViewDelegate {
         leftVc.didMove(toParentViewController: self)
         middleVertScrollVc.didMove(toParentViewController: self)
         rightVc.didMove(toParentViewController: self)
-        
         scrollView.contentOffset.x = middleVertScrollVc.view.frame.origin.x
+        scrollView.contentOffset.y = middleVertScrollVc.view.frame.origin.y
+
         scrollView.delegate = self
+
     }
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {

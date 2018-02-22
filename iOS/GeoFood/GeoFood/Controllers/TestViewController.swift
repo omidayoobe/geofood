@@ -10,6 +10,8 @@ import UIKit
 import Alamofire
 
 class TestViewController: UIViewController {
+    
+
     let urlString = "http://geofood.uk/backend/register.php"
     // IBOutlets
     @IBOutlet weak var resultLabel: UILabel!

@@ -10,6 +10,10 @@ import UIKit
 
 class TopViewController: UIViewController {
 
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("View did load, top")

@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let snapContainer = SnapContainerViewController.containerViewWith(left, middleVC: middle, rightVC: right, topVC: top)
         self.window?.rootViewController = snapContainer
         self.window?.makeKeyAndVisible()
+        application.isStatusBarHidden = true
+        UIApplication.shared.isStatusBarHidden = true
         return true
     }
 
