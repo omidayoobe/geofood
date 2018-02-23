@@ -7,21 +7,42 @@
 //
 
 import UIKit
+import AVFoundation
 
-class MiddleViewController: UIViewController {
-    // TODO: Camera
+class MiddleViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
+    var previewLayer = AVCaptureVideoPreviewLayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Create session
+        let session = AVCaptureSession()
+        //Define capture device
+        let captureDevice = AVCaptureDevice.default(for: AVMediaType.video)
         
-        // Do any additional setup after loading the view, typically from a nib.
+        do {
+            let input = try AVCaptureDeviceInput(device: captureDevice!)
+            session.addInput(input)
+        }
+        catch {
+            print("ERROR")
+        }
+        let output = AVCaptureMetadataOutput()
+        session.addOutput(output)
+        output.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
+        output.metadataObjectTypes = [AVMetadataObject.ObjectType.qr]
+        
+        previewLayer = AVCaptureVideoPreviewLayer(session: session)
+        previewLayer.frame = view.layer.bounds
+        view.layer.addSublayer(previewLayer)
+        
+        session.startRunning()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
