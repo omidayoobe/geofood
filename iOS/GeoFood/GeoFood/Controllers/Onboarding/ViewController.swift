@@ -19,13 +19,13 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
     
 
     @IBAction func gotStarted(_ sender: Any) {
-        let mainSb = UIStoryboard(name: "Main", bundle: nil)
+        /*let mainSb = UIStoryboard(name: "Main", bundle: nil)
         let left = mainSb.instantiateViewController(withIdentifier: "left")
         let middle = mainSb.instantiateViewController(withIdentifier: "middle")
         let right = mainSb.instantiateViewController(withIdentifier: "right")
         let top = mainSb.instantiateViewController(withIdentifier: "top")
         let snapContainer = SnapContainerViewController.containerViewWith(left, middleVC: middle, rightVC: right, topVC: top)
-        self.present(snapContainer, animated: true, completion: nil)
+        self.present(snapContainer, animated: true, completion: nil)*/
     }
     
     
