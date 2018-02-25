@@ -43,7 +43,7 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
     
     // Paper Onboarding Library
     func onboardingItemsCount() -> Int {
-        return 2
+        return 3
     }
     
     func onboardingItem(at index: Int) -> OnboardingItemInfo {
@@ -56,7 +56,7 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
         
         return [OnboardingItemInfo(informationImage: UIImage(named:"rocket")!,
                                    title: "geofood",
-                                   description: "hey nick suck my d",
+                                   description: "yo big man",
                                    pageIcon: UIImage(named:"rocket")!,
                                    color: backgroundColorOne,
                                    titleColor: backgroundColorTwo,
@@ -71,6 +71,15 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
                                    titleColor: backgroundColorThree,
                                    descriptionColor: backgroundColorOne,
                                    titleFont: titleFont,
+                                   descriptionFont: descriptionFont),
+                OnboardingItemInfo(informationImage: UIImage(named:"rocket")!,
+                                   title: "blahblah",
+                                   description: "qwerty abcabcabc qwerty",
+                                   pageIcon: UIImage(named:"brush")!,
+                                   color: backgroundColorThree,
+                                   titleColor: backgroundColorOne,
+                                   descriptionColor: backgroundColorTwo,
+                                   titleFont: titleFont,
                                    descriptionFont: descriptionFont)][index]
         
         
@@ -81,7 +90,7 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
     }
     
     func onboardingWillTransitonToIndex(_ index: Int) {
-        if index == 0 {
+        if index == 1 {
             UIView.animate(withDuration: 0.2, animations: {
                 self.getStartedButton.alpha = 0
             })
@@ -89,7 +98,7 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
     }
     
     func onboardingDidTransitonToIndex(_ index: Int) {
-        if index == 1 {
+        if index == 2 {
             UIView.animate(withDuration: 0.4, animations: {
                 self.getStartedButton.alpha = 1
             })
