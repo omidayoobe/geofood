@@ -191,6 +191,12 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
+    public void swipToTracker(){
+        Intent i = new Intent(this, login.class);
+        startActivity(i);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+
     public void swipeToLogin(){
         Intent i = new Intent(this, login.class);
         startActivity(i);
