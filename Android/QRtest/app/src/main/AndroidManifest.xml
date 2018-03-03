@@ -39,7 +39,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".login" />
         <activity android:name=".register" />
-        <activity android:name=".tracker" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
