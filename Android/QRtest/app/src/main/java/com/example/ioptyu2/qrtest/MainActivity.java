@@ -10,13 +10,17 @@ import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.SparseArray;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
@@ -27,6 +31,13 @@ import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
     float x1,x2,y1,y2;
+
+    //DatabaseHelper db;
+    EditText e1,e2,e3;
+    Button b1;
+
+
+
     SurfaceView cameraPreview;
     TextView txtResult;
     BarcodeDetector barcodeDetector;
@@ -52,16 +63,31 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+
     @Override
     public void finish() {
         super.finish();
         overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
+
+
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        db = new DatabaseHelper(this);
+//
+//        e1 = (EditText) findViewById(R.id.emailR);
+//        e2 = (EditText) findViewById(R.id.passwordR);
+//        e3 = (EditText) findViewById(R.id.confPassR);
+//        b1 = (Button) findViewById(R.id.register_btn);
+
+
+
+
 
         cameraPreview = (SurfaceView)findViewById(R.id.cameraPreview);
         txtResult = (TextView)findViewById(R.id.txtResult);
@@ -99,6 +125,33 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+//        //for the database
+//        b1.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v){
+//                String s1 = e1.getText().toString();
+//                String s2 = e2.getText().toString();
+//                String s3 = e3.getText().toString();
+//                if(s1.equals("")||s2.equals("")||s3.equals("")){
+//                    Toast.makeText(getApplicationContext(),"Fill the fields you farmer",Toast.LENGTH_SHORT).show();
+//                }else{
+//                    if(s2.equals(s3)){
+//                        Boolean checkEmail = db.checkEmail(s1);
+//                        if(checkEmail == true){
+//                            Boolean insert = db.insert(s1,s2);
+//                            if(insert== true){
+//                                Toast.makeText(getApplicationContext(),"You are among the greenyz!",Toast.LENGTH_SHORT).show();
+//                            }
+//                        }
+//                        else{
+//                            Toast.makeText(getApplicationContext(),"Wake up you are already among us", Toast.LENGTH_SHORT).show();
+//                        }
+//                    }
+//                    Toast.makeText(getApplicationContext(),"Wrong password, not enough veggies mate!",Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });//end database
 
         barcodeDetector.setProcessor(new Detector.Processor<Barcode>(){
             @Override
@@ -131,11 +184,24 @@ public class MainActivity extends AppCompatActivity {
                 y2 = event.getY();
                 if(x1 < x2){
                     swipeToOptions();
+                }else{
+                    swipeToLogin();
                 }
                 break;
         }
         return false;
     }
+    public void swipeToLogin(){
+        Intent i = new Intent(this, login.class);
+        startActivity(i);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+
+//    public void buttonToRegister(){
+//        Intent i = new Intent(this, register.class);
+//        startActivity(i);
+//    }
+
     public void swipeToOptions(){
         Intent i = new Intent(this, menu.class);
         startActivity(i);
@@ -146,4 +212,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
+
+
 }

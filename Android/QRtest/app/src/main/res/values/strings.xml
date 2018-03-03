@@ -3,4 +3,5 @@
     <string name="result_text_default">Please focus camera on QR code</string>
     <string name="historyButton">History</string>
     <string name="favButton">Favourites</string>
+    <string name="title_activity_login">Login</string>
 </resources>

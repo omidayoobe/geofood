@@ -25,11 +25,19 @@
             android:name="com.google.android.gms.vision.DEPENDENCIES"
             android:value="barcode" />
 
-        <activity android:name=".menu"/>
-        <activity android:name=".history"
-            android:parentActivityName=".menu"/>
-        <activity android:name=".favourites"
-            android:parentActivityName=".menu"/>
+        <activity android:name=".menu" />
+        <activity
+            android:name=".history"
+            android:parentActivityName=".menu" />
+        <activity
+            android:name=".favourites"
+            android:parentActivityName=".menu" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login" />
+        <activity android:name=".register"></activity>
     </application>
 
 </manifest>

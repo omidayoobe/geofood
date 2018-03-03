@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroundlogin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.ioptyu2.qrtest.menu">
@@ -27,27 +28,19 @@
         android:id="@+id/historyButton"
         android:layout_width="359dp"
         android:layout_height="55dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="@string/historyButton"
         android:onClick="historyButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/historyButton"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="2dp" />
 
     <Button
         android:id="@+id/favouriteButton"
         android:layout_width="359dp"
         android:layout_height="55dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="52dp"
-        android:text="@string/favButton"
+        android:layout_marginTop="80dp"
         android:onClick="favouritesButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/historyButton" />
+        android:text="@string/favButton"
+        app:layout_constraintTop_toTopOf="@+id/historyButton"
+        tools:layout_editor_absoluteX="13dp" />
 
 </android.support.constraint.ConstraintLayout>
