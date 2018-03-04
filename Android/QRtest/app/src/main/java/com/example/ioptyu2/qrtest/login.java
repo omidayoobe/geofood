@@ -6,18 +6,21 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class login extends AppCompatActivity {
 
-    Button toRegister;
 
         float x1,x2,y1,y2;
+        EditText username, password;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_login);
             setTitle("login");
+            username = (EditText)findViewById(R.id.usernameL);
+            password = (EditText)findViewById(R.id.passwordL);
         }
 
         @Override
@@ -50,6 +53,13 @@ public class login extends AppCompatActivity {
         public void buttonToRegister(View v){
             Intent i = new Intent(this, register.class);
             startActivity(i);
+        }
+        public void onLogin(View v){
+            String str_username = username.getText().toString();
+            String str_password = password.getText().toString();
+            String type = "login";
+            BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+            backgroundWorker.execute(type, str_username, str_password);
         }
 
 

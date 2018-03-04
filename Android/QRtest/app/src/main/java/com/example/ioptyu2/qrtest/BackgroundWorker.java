@@ -30,7 +30,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String... voids) {
         String type = voids[0];
-        String login_url = "http://";
+        String login_url = "http://geofood.uk/backend/login.php";
         String register_url = "http://geofood.uk/backend/register.php";
         if(type.equals("login")){   //code for login
             try {
