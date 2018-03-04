@@ -35,18 +35,6 @@
         app:layout_constraintStart_toStartOf="@+id/cameraPreview"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--<android.support.design.widget.FloatingActionButton-->
-        <!--android:id="@+id/floatingBtnLogin"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginBottom="8dp"-->
-        <!--android:layout_marginEnd="8dp"-->
-        <!--android:layout_marginRight="8dp"-->
-        <!--android:clickable="true"-->
-        <!--app:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:srcCompat="@android:drawable/ic_menu_share" android:focusable="true" />-->
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingBtnOptions"
@@ -68,14 +56,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:clickable="true"
         android:focusable="true"
-        android:onClick="buttonToOptions"
+        android:onClick="buttonToRegister"
         app:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_manage" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_share" />
 
 </android.support.constraint.ConstraintLayout>

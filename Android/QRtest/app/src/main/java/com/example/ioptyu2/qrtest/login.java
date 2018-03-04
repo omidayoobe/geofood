@@ -46,16 +46,11 @@ public class login extends AppCompatActivity {
             startActivity(i);
             overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
         }
-        public void buttonToCamera(View v){
-            Intent i = new Intent(this, MainActivity.class);
-            startActivity(i);
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-        }
 
-//        public void buttonToRegister(View v){
-//            Intent i = new Intent(this, register.class);
-//            startActivity(i);
-//        }
+        public void buttonToRegister(View v){
+            Intent i = new Intent(this, register.class);
+            startActivity(i);
+        }
 
 
     }
