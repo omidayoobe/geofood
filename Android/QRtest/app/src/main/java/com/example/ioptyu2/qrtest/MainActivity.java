@@ -157,10 +157,10 @@ public class MainActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
-    public void buttonToRegister(View v){
-        Intent i = new Intent(this, register.class);
+    public void buttonToLogin(View v){
+        Intent i = new Intent(this, login.class);
         startActivity(i);
-        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
     public void swipeToOptions(){
