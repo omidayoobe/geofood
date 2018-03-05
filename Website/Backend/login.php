@@ -2,34 +2,28 @@
 /**
  * Created by Wojciech Tyziniec
  * User: wtznc
- * Date: 21/02/18
- * Time: 10:54 PM
+ * Date: 04/03/18
+ * Time: 23:10 PM
  */
 
 require_once 'DbOperation.php';
 $response = array();
 
-if($_SERVER['REQUEST_METHOD'] == 'POST'){
-	if(!verifyRequiredParams(array('username', 'password','email'))){
+if($_SERVER['REQUEST_METHOD'] = 'POST'){
+	if(!verifyRequiredParams(array('username', 'password'))){
 		$username = $_POST['username'];
 		$password = $_POST['password'];
-		$email = $_POST['email'];
 
-		// creating db operation object
 		$db = new DbOperation();
-
-		// adding user to database
-		$result = $db->createUser($username, $password, $email);
-		if($result == USER_CREATED){
+		$result = $db->login($username, $password);
+		if($result == LOGIN_SUCCESSFUL){
 			$response['error'] = false;
-			$response['message'] = 'User created successfully';
-		} elseif ($result == USER_ALREADY_EXIST){
+			$response['message'] = 'Login successful';
+		} elseif($result == LOGIN_UNSUCCESSFUL){
 			$response['error'] = true;
-			$response['message'] = 'User already exists';
-		} elseif ($result == USER_NOT_CREATED){
-			$response['error'] = true;
-			$response['message'] = 'Some error occured';
+			$response['message'] = 'Login unsuccessful';
 		}
+
 	} else {
 		$response['error'] = true;
 		$response['message'] = 'Required parameters are missing';
@@ -38,6 +32,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	$response['error'] = true;
 	$response['message'] = 'Invalid request';
 }
+
+
+
 
 function verifyRequiredParams($required_fields){
 	$request_params = $_REQUEST;
@@ -48,6 +45,7 @@ function verifyRequiredParams($required_fields){
 	}
 	return false;
 }
+
 echo json_encode($response);
 
 ?>

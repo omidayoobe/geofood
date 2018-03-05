@@ -14,6 +14,8 @@ define('DB_NAME', 'geoftigk_project');
 define('USER_CREATED', 0);
 define('USER_ALREADY_EXIST', 1);
 define('USER_NOT_CREATED', 2);
+define('LOGIN_SUCCESSFUL', 3);
+define('LOGIN_UNSUCCESSFUL',4);
 
 
 

@@ -40,6 +40,19 @@ class DbOperation{
 		$stmt->store_result();
 		return $stmt->num_rows > 0;
 	}
+
+	public function login($username, $pass){
+		$password = md5($pass);
+		$stmt = $this->conn->prepare("SELECT id FROM users WHERE username = ? AND password = ?");
+		$stmt->bind_param("ss", $username, $password);
+		$stmt->execute();
+		$stmt->store_result();
+		if($stmt->num_rows > 0){
+			return LOGIN_SUCCESSFUL;
+		} else {
+			return LOGIN_UNSUCCESSFUL;
+		}
+	}
 }
 
 
