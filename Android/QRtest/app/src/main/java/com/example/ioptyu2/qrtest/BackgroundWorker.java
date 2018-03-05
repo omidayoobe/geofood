@@ -111,6 +111,17 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
+        if(result.contains("Login successful")){
+            result = "Login Successful!";
+        }else if(result.contains("Login unsuccessful")) {
+            result = "Incorrect details. Try again.";
+        }else if(result.contains("missing")){
+            result = "Please fill out all the fields.";
+        }else if(result.contains("successfully")){
+            result = "User created successfully";
+        }else if(result.contains("already")){
+            result = "User already exists. Please try again.";
+        }
         alertDialog.setMessage(result);
         alertDialog.show();
 

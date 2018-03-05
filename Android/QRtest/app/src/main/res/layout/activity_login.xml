@@ -8,6 +8,23 @@
     tools:context="com.example.ioptyu2.qrtest.login"
     android:background="@drawable/backgroundlogin">
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/camerabtn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="buttonToCamera"
+        app:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
@@ -27,7 +44,7 @@
         android:layout_above="@+id/cardView"
         android:layout_alignLeft="@+id/passwordL"
         android:layout_alignStart="@+id/passwordL"
-        android:layout_marginBottom="154dp"
+        android:layout_marginBottom="54dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_action_user"
         android:ems="10"
@@ -50,20 +67,24 @@
         android:textSize="14sp" android:drawableStart="@drawable/ic_action_password"/>
 
     <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/register_btn"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="82dp"
+        android:layout_marginBottom="30dp"
         app:cardBackgroundColor="@color/common_google_signin_btn_text_dark_disabled"
         app:cardCornerRadius="25dp"
-        app:cardElevation="24dp"
-        android:id="@+id/cardView">
+        app:cardElevation="24dp">
 
         <RelativeLayout
             android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_above="@+id/cardView"
+            android:layout_alignLeft="@+id/cardView"
+            android:layout_alignStart="@+id/cardView"
+            android:layout_marginBottom="14dp"
             android:onClick="onLogin">
 
             <TextView
@@ -85,7 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp"
+        android:layout_marginBottom="150dp"
         android:onClick="buttonToRegister"
         android:text="@string/register_here"
         android:textColor="#fff" />
