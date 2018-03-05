@@ -2330,6 +2330,276 @@ ul.icons {
   body.is-preload #bannerh:before {
     opacity: 1; }
 
+
+
+
+
+
+
+#banners {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  background-color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-image: url("../../images/ban3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 0;
+  display: -ms-flexbox;
+  height: 35rem !important;
+  min-height: 35rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  #banners input, #banners select, #banners textarea {
+    color: #ffffff; }
+  #banners a {
+    color: #111111; }
+  #banners strong, #banners b {
+    color: #ffffff; }
+  #banners h1, #banners h2, #banners h3, #banners h4, #banners h5, #banners h6 {
+    color: #ffffff; }
+  #banners blockquote {
+    border-left-color: rgba(255, 255, 255, 0.25); }
+  #banners code {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
+  #banners hr {
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+  #banners input[type="submit"],
+  #banners input[type="reset"],
+  #banners input[type="button"],
+  #banners button,
+  #banners .button {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    color: #ffffff !important; }
+    #banners input[type="submit"]:hover,
+    #banners input[type="reset"]:hover,
+    #banners input[type="button"]:hover,
+    #banners button:hover,
+    #banners .button:hover {
+      box-shadow: inset 0 0 0 1px #111111;
+      color: #111111 !important; }
+      #banners input[type="submit"]:hover:active,
+      #banners input[type="reset"]:hover:active,
+      #banners input[type="button"]:hover:active,
+      #banners button:hover:active,
+      #banners .button:hover:active {
+        background-color: rgba(206, 27, 40, 0.25); }
+    #banners input[type="submit"].primary,
+    #banners input[type="reset"].primary,
+    #banners input[type="button"].primary,
+    #banners button.primary,
+    #banners .button.primary {
+      box-shadow: none;
+      background-color: #111111;
+      color: #ffffff !important; }
+      #banners input[type="submit"].primary:hover,
+      #banners input[type="reset"].primary:hover,
+      #banners input[type="button"].primary:hover,
+      #banners button.primary:hover,
+      #banners .button.primary:hover {
+        background-color: #000000;
+        box-shadow: none; }
+        #banners input[type="submit"].primary:hover:active,
+        #banners input[type="reset"].primary:hover:active,
+        #banners input[type="button"].primary:hover:active,
+        #banners button.primary:hover:active,
+        #banners .button.primary:hover:active {
+          background-color: #000000; }
+  #banners label {
+    color: #ffffff; }
+  #banners input[type="text"],
+  #banners input[type="password"],
+  #banners input[type="email"],
+  #banners input[type="tel"],
+  #banners input[type="search"],
+  #banners input[type="url"],
+  #banners select,
+  #banners textarea {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
+    #banners input[type="text"]:focus,
+    #banners input[type="password"]:focus,
+    #banners input[type="email"]:focus,
+    #banners input[type="tel"]:focus,
+    #banners input[type="search"]:focus,
+    #banners input[type="url"]:focus,
+    #banners select:focus,
+    #banners textarea:focus {
+      border-color: #000000;
+      box-shadow: 0 0 0 1px #000000; }
+  #banners select {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
+    #banners select option {
+      color: rgba(255, 255, 255, 0.5);
+      background-color: #000000; }
+  #banners input[type="checkbox"] + label,
+  #banners input[type="radio"] + label {
+    color: rgba(255, 255, 255, 0.5); }
+    #banners input[type="checkbox"] + label:before,
+    #banners input[type="radio"] + label:before {
+      background: rgba(255, 255, 255, 0.075);
+      border-color: rgba(255, 255, 255, 0.25); }
+  #banners input[type="checkbox"]:checked + label:before,
+  #banners input[type="radio"]:checked + label:before {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff; }
+  #banners input[type="checkbox"]:focus + label:before,
+  #banners input[type="radio"]:focus + label:before {
+    border-color: #000000;
+    box-shadow: 0 0 0 1px #000000; }
+  #banners ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #banners :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #banners ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #banners :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #banners ul.alt li {
+    border-top-color: rgba(255, 255, 255, 0.25); }
+  #banners table tbody tr {
+    border-color: rgba(255, 255, 255, 0.25); }
+    #banners table tbody tr:nth-child(2n + 1) {
+      background-color: rgba(255, 255, 255, 0.075); }
+  #banners table th {
+    color: #ffffff; }
+  #banners table thead {
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+  #banners table tfoot {
+    border-top-color: rgba(255, 255, 255, 0.25); }
+  #banners table.alt tbody tr td {
+    border-color: rgba(255, 255, 255, 0.25); }
+  #banners .highlights .content {
+    background: #000000;
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
+  #banners .testimonials .content {
+    background: #000000;
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
+    #banners .testimonials .content .credit strong {
+      color: #000000; }
+  #banners > .inner {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1;
+    position: relative;
+    z-index: 3; }
+    #banners > .inner > :last-child {
+      margin-bottom: 0; }
+  #banners h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem; }
+  #banners p {
+    font-size: 1.5rem; }
+  #banners a {
+    color: rgba(255, 255, 255);
+    text-decoration: none; }
+    #banners a:hover {
+      color: #ffffff; }
+  #banners video {
+    -moz-transform: translateX(50%) translateY(50%);
+    -webkit-transform: translateX(50%) translateY(50%);
+    -ms-transform: translateX(50%) translateY(50%);
+    transform: translateX(50%) translateY(50%);
+    bottom: 50%;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 50%;
+    width: auto; }
+  #banners:before {
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    -moz-transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+    background: #000000;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; }
+  #banners:after {
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    webkit-linear-gradientidth: 100%;
+    width: 100%;
+    z-index: 1; }
+  #banners.small {
+    height: 30vh !important;
+    min-height: 30vh; }
+  @media screen and (max-width: 1280px) {
+    #banners video {
+      display: none; } }
+  @media screen and (max-width: 736px) {
+    #banners {
+      height: auto !important;
+      min-height: 0;
+      padding: 4rem 2rem 4rem 2rem; }
+      #banners .inner {
+        width: 100%; }
+      #banners h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0; }
+      #banners p {
+        font-size: 1.25rem; }
+      #banners br {
+        display: none; }
+      #banners .button {
+        width: 100%; } }
+  @media screen and (max-width: 480px) {
+    #banners p {
+      font-size: 1rem; } }
+  body.is-preload #banners .inner {
+    -moz-transform: scale(0.99);
+    -webkit-transform: scale(0.99);
+    -ms-transform: scale(0.99);
+    transform: scale(0.99);
+    opacity: 0; }
+  body.is-preload #banners:before {
+    opacity: 1; }
+
+
+
+
 /* CTA */
 #cta {
   background-color: #000000;
@@ -3171,7 +3441,7 @@ body.is-menu-visible #menu {
             
 /* Style inputs */
 input[type=text], select, textarea {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
@@ -3179,17 +3449,18 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
+
 input[type=submit] {
-    background-color: #ce1b28;
+    background-color: #grey;
     color: white;
-    padding: 12px 20px;
+    padding: 0px 20px;
     border: none;
     cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #ce1b28;
-    color:white;
+    background-color: #black;
+    color:black;
 }
 
 /* Style the container/contact section */
@@ -3201,10 +3472,20 @@ input[type=submit]:hover {
 
 /* Create two columns that float next to eachother */
 .column {
-    float: left;
     width: 50%;
     margin-top: 6px;
-    padding: 20px;
+    
+
+}
+
+.columnlogin {
+    padding: -10px;
+    width: 50%;
+    margin-top: 26px;
+   
+
+
+
 }
 
 /* Clear floats after the columns */

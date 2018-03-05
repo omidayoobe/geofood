@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>GeoFood</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">GeoFood</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+                
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="services.html">Services</a></li>
+                    <li><a href="elements.html">Products</a></li>
+					<li><a href="generic.html">Contact Us</a></li>
+                    <li><a href="loginsignup.html">Log in | Sign Up</a></li>
+				</ul>
+			</nav>
+
+		<!-- Heading -->
+        <section id="banner">
+          <h1>Log In - Sign Up</h1>
+            
+			</section>
+			
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<div class="content">
+						<header>
+							
+						</header>
+					
+					<div class="container">
+  <div style="text-align:center">
+    <p>please Long in or sign up</p>
+  </div>
+  <div class="row">
+    <div class="columnlogin" >
+
+   <form action="/action_page.php">
+<h2>Login here:</h2>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Please enter your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Please enter your last name..">
+        <input type="submit" value="Login">
+      </form>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="columnlogin">
+      <form action="/action_page.php">
+
+      	<h2>Sign up here:</h2>
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Please enter your name..">
+        <label for="country">E-mail</label>
+    	<input type="text" id="lname" name="lastname" placeholder="Please enter you e-mail...">
+        <label for="subject">Re-enter E-mail</label>
+        <input type="text" id="lname" name="lastname" placeholder="Please re-enter you e-mail">
+        <label for="subject">Password</label>
+        <input type="text" id="lname" name="lastname" placeholder="Please type in your password...">
+        <label for="subject">Re-enter Password</label>
+        <input type="text" id="lname" name="lastname" placeholder="Please re-enter your first name...">
+        <input type="submit" value="Sign up">
+      </form>
+    </div>
+  </div>
+</div>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+				<footer id="footer">
+				<div class="inner">
+					<div class="content">
+				
+							<ul class="plain">
+								<a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a>
+								<a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a>
+								<a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a>
+								<a href="#"><i class="icon fa-github">&nbsp;</i>Github</a>
+							</ul>
+					
+					</div>
+					<div class="copyright">
+						&copy; GeoFood 2018
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+<script>
+// Initialize google maps
+function myMap() {
+  var myCenter = new google.maps.LatLng(51.508742,-0.120850);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 12};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgR14Rapt0UkKHGtRLmi9PmNiDj0qmyIA&callback=myMap"></script>
+
+	</body>
+</html><
