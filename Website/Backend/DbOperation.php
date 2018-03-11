@@ -53,6 +53,16 @@ class DbOperation{
 			return LOGIN_UNSUCCESSFUL;
 		}
 	}
+
+	public function addNewProduct($id_owner, $name, $quantity, $type, $source, $target, $date_processed){
+		$stmt = $this->conn->prepare("INSERT INTO products (id_owner, name, quantity, type, source, target, date_processed) VALUES (?, ?, ?, ?, ?, ?, ?)");
+		$stmt->bind_param("sssssss", $id_owner, $name, $quantity, $type, $source, $target, $date_processed);
+		if($stmt -> execute()){
+			return PRODUCT_ADDED;
+		} else {
+			return PRODUCT_NOT_ADDED;
+		}
+	}
 }
 
 

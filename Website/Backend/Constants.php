@@ -16,7 +16,8 @@ define('USER_ALREADY_EXIST', 1);
 define('USER_NOT_CREATED', 2);
 define('LOGIN_SUCCESSFUL', 3);
 define('LOGIN_UNSUCCESSFUL',4);
-
+define('PRODUCT_ADDED', 5);
+define('PRODUCT_NOT_ADDED', 6);
 
 
 ?>
