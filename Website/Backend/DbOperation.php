@@ -47,8 +47,12 @@ class DbOperation{
 		$stmt->bind_param("ss", $username, $password);
 		$stmt->execute();
 		$stmt->store_result();
+		$stmt->bind_result($colID);
+		$stmt->fetch();
 		if($stmt->num_rows > 0){
-			return LOGIN_SUCCESSFUL;
+			//echo $colID;
+			//return LOGIN_SUCCESSFUL;
+			return array(LOGIN_SUCCESSFUL, $colID);
 		} else {
 			return LOGIN_UNSUCCESSFUL;
 		}

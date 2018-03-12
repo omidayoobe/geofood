@@ -16,9 +16,10 @@ if($_SERVER['REQUEST_METHOD'] = 'POST'){
 
 		$db = new DbOperation();
 		$result = $db->login($username, $password);
-		if($result == LOGIN_SUCCESSFUL){
+		if($result[0] == LOGIN_SUCCESSFUL){
 			$response['error'] = false;
 			$response['message'] = 'Login successful';
+			$response['userID'] = $result[1];
 		} elseif($result == LOGIN_UNSUCCESSFUL){
 			$response['error'] = true;
 			$response['message'] = 'Login unsuccessful';
