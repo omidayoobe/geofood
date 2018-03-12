@@ -5,7 +5,7 @@
  * Date: 11/03/18
  * Time: 6:18 PM
  */
-
+include('phpqrcode/qrlib.php');
 require_once 'DbOperation.php';
 $response = array();
 
@@ -23,9 +23,17 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 		// adding new products to db
 		$result = $db-> addNewProduct($id_owner, $name, $quantity, $type, $source, $target, $date_processed);
-		if($result == PRODUCT_ADDED){
+		if($result[0] == PRODUCT_ADDED){
 			$response['error'] = false;
 			$response['message'] = 'Product added successfully';
+			$response['productID'] = $result[1];
+			// generate qr code now
+			$filename = "qrcodes/".$result[1].".png";
+			define('IMAGE_WIDTH',1024);
+			define('IMAGE_HEIGHT',1024);
+			QRcode::png ($result[1] , $filename, "L", 14,2);
+
+
 		} elseif($result == PRODUCT_NOT_ADDED){
 			$response['error'] = true;
 			$response['message'] = 'Product could not be added';

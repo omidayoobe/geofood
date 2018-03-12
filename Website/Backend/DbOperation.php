@@ -62,7 +62,9 @@ class DbOperation{
 		$stmt = $this->conn->prepare("INSERT INTO products (id_owner, name, quantity, type, source, target, date_processed) VALUES (?, ?, ?, ?, ?, ?, ?)");
 		$stmt->bind_param("sssssss", $id_owner, $name, $quantity, $type, $source, $target, $date_processed);
 		if($stmt -> execute()){
-			return PRODUCT_ADDED;
+			$stmt->store_result();
+			$last_id = $stmt->insert_id;
+			return array(PRODUCT_ADDED, $last_id);
 		} else {
 			return PRODUCT_NOT_ADDED;
 		}
