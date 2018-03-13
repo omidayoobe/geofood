@@ -17,9 +17,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 
-/**
- * Created by ioptyu2 on 04/03/2018.
- */
+
 
 public class BackgroundWorker extends AsyncTask<String, Void, String> {
     Context context;
@@ -32,6 +30,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         String type = voids[0];
         String login_url = "http://geofood.uk/backend/login.php";
         String register_url = "http://geofood.uk/backend/register.php";
+        String addProduct_url = "http://geofood.uk/backend/addproducts.php";
         if(type.equals("login")){   //code for login
             try {
                 String username = voids[1];
@@ -79,6 +78,48 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 String post_data = URLEncoder.encode("username", "UTF-8")+"="+URLEncoder.encode(username, "UTF-8")+"&"+
                         URLEncoder.encode("password", "UTF-8")+"="+URLEncoder.encode(password, "UTF-8")+"&"+
                         URLEncoder.encode("email", "UTF-8")+"="+URLEncoder.encode(email, "UTF-8");
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+                String result = "";
+                String line = "";
+                while((line = bufferedReader.readLine()) != null){
+                    result += line;
+                }
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else if(type.equals("addproduct")){
+            try {
+                final int globalvar = MyApplication.getID();
+                String id = Integer.toString(MyApplication.getID());
+                String name = voids[1];
+                String quantity = voids[2];
+                String foodType = voids[3];
+                String source = voids[4];
+                String target = voids[5];
+                URL url = new URL(addProduct_url);
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+                String post_data = URLEncoder.encode("id_owner", "UTF-8")+"="+URLEncoder.encode(id, "UTF-8")+"&"+
+                        URLEncoder.encode("name", "UTF-8")+"="+URLEncoder.encode(name, "UTF-8")+"&"+
+                        URLEncoder.encode("quantity", "UTF-8")+"="+URLEncoder.encode(quantity, "UTF-8")+"&"+
+                        URLEncoder.encode("type", "UTF-8")+"="+URLEncoder.encode(foodType, "UTF-8")+"&"+
+                        URLEncoder.encode("source", "UTF-8")+"="+URLEncoder.encode(source, "UTF-8")+"&"+
+                        URLEncoder.encode("target", "UTF-8")+"="+URLEncoder.encode(target, "UTF-8");
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
                 bufferedWriter.close();
