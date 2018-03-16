@@ -174,10 +174,6 @@ class LeftViewController:  FormViewController {
                             row.section?.insert(labelRow, at: row.indexPath!.row + index + 1)
                         }
                     }
-                    
-                    
-                    
-                    
             }
             <<< ButtonRow() {
                 $0.title = "Add"
@@ -208,5 +204,4 @@ class LeftViewController:  FormViewController {
      // Pass the selected object to the new view controller.
      }
      */
-    
 }
