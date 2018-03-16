@@ -23,6 +23,8 @@
 		B6B142E8203F4B6900AD41E0 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B142E7203F4B6900AD41E0 /* Onboarding.storyboard */; };
 		B6B142EC203F4C0D00AD41E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B142EB203F4C0D00AD41E0 /* ViewController.swift */; };
 		B6B142EE203F4DB000AD41E0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B142ED203F4DB000AD41E0 /* OnboardingView.swift */; };
+		E7D92C08205C591A005C6F88 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D92C07205C591A005C6F88 /* CustomCells.swift */; };
+		E7D92C0A205C592D005C6F88 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D92C09205C592D005C6F88 /* FloatLabelTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		B6B142E7203F4B6900AD41E0 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		B6B142EB203F4C0D00AD41E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6B142ED203F4DB000AD41E0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E7D92C07205C591A005C6F88 /* CustomCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		E7D92C09205C592D005C6F88 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
 		FCB1869A91B7B7DA711AAB1B /* Pods-GeoFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoFood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoFood/Pods-GeoFood.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +152,8 @@
 			children = (
 				B6790C1F203C9D6A0004C79D /* LeftViewController.swift */,
 				B6AA19E4203C961E00A8BF7C /* MiddleViewController.swift */,
+				E7D92C09205C592D005C6F88 /* FloatLabelTextField.swift */,
+				E7D92C07205C591A005C6F88 /* CustomCells.swift */,
 				B6790C1B203C9C140004C79D /* RightViewController.swift */,
 				B6790C1D203C9CAE0004C79D /* TopViewController.swift */,
 				B66B6297203CA910006D1ADD /* TestViewController.swift */,
@@ -316,10 +322,12 @@
 				B6B142EE203F4DB000AD41E0 /* OnboardingView.swift in Sources */,
 				B6B142EC203F4C0D00AD41E0 /* ViewController.swift in Sources */,
 				B6790C17203C98EF0004C79D /* VerticalScrollViewController.swift in Sources */,
+				E7D92C0A205C592D005C6F88 /* FloatLabelTextField.swift in Sources */,
 				B6790C1C203C9C140004C79D /* RightViewController.swift in Sources */,
 				B68C94A3204362CB00C655B4 /* ChooseRoleViewController.swift in Sources */,
 				B6AA19E3203C961E00A8BF7C /* AppDelegate.swift in Sources */,
 				B6790C20203C9D6A0004C79D /* LeftViewController.swift in Sources */,
+				E7D92C08205C591A005C6F88 /* CustomCells.swift in Sources */,
 				B6790C16203C98EF0004C79D /* SnapContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
