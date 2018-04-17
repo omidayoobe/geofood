@@ -56,4 +56,8 @@ public class menu extends AppCompatActivity {
         Intent i = new Intent(this, favourites.class);
         startActivity(i);
     }
+    public void addproductbutton(View v) {
+        Intent i = new Intent(this, AddProduct.class);
+        startActivity(i);
+    }
 }

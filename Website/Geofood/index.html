@@ -26,11 +26,10 @@
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="#about">About Us</a></li>
-					<li><a href="generic.html">Services</a></li>
+					<li><a href="#services">Services</a></li>
                     <li><a href="elements.html">Products</a></li>
 					<li><a href="generic.html">Contact Us</a></li>
-                    <li><a href="generic.html">Log In</a></li>
-                    <li><a href="generic.html">Sign Up</a></li>
+                     <li><a href="loginsignup.html">Log in | Sign Up</a></li>
 				</ul>
 			</nav>
 
@@ -62,7 +61,6 @@
 			<section class="wrapper">
 				<div class="inner">
 					<header class="special">
-                        <h2 style="color: #ce1b28">Insert title here</h2>
 						<p>Our journey into the world of software design and project management started with one simple question - how can we make life better? It is a big question and a bold statement we know, but one activity that is directly proportional for better living is nutrition. The healthier you are the happier you are, it is simple as that! 
 </p>
 					</header>
@@ -71,23 +69,20 @@
 			</section>
 
 		<!-- CTA -->
-        <a id="about"></a>
+        <a id="services"></a>
 			<section id="cta" class="wrapper">
 				<div class="inner">
 					<header class="special">
-                        <h2 style="color: #ce1b28">About Us</h2>
-						<p style="color: white">Our journey into the world of software design and project management started with one simple question - how can we make life better? It is a big question and a bold statement we know, but one activity that is directly proportional for better living is nutrition. The healthier you are the happier you are, it is simple as that! 
-</p>
-					</header>
+                        <h2 style="color: #ce1b28">Services</h2>
+     			</header>
 					<div class="highlights">
-						
 						<section>
 							<div class="content">
 								<header>
 									<a href="#" class="icon fa-area-chart"><span class="label">Icon</span></a>
 									<h3 style="color: #ce1b28">Statistics</h3>
 								</header>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+								<p>Along side our customers, the environment is also a important part of our company. Our business looks at different methods od transportation and calculates the overall CO2 emission which was emitted during the jourrney of our products. We set a targets to reduce our absolute operational carbon emissions up to 5% each year.</p>
 							</div>
 						</section>
 						<section>
@@ -96,7 +91,7 @@
 									<a href="#" class="icon fa-truck"><span class="label">Icon</span></a>
 									<h3 style="color: #ce1b28">Tracking</h3>
 								</header>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+								<p>Every product has a story and Our simple tracking system allows customers and suppliers to track where their products has come from by simply scanning the QR code provided on the item.</p>
 							</div>
 						</section>
                         <section>
@@ -105,8 +100,7 @@
 									<a href="#" class="icon fa-handshake-o" aria-hidden="true"><span class="label"></span></a>
 									<h3 style="color: #ce1b28">Guarantee</h3>
 								</header>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                                </p>
+								<p>We stand by the quality of our work. We gurantee to provide the best and reliable service to our customers. Our performance is measured by your satisfaction. If you are not entirely happy with our service, contact us and we will find a suitable resolution</p>
 							</div>
 						</section>
 					
@@ -115,12 +109,18 @@
 			</section>
 
 		<!-- Testimonials -->
+        <a id="about"></a>
 			<section class="wrapper">
 				<div class="inner">
 					<header class="special">
+                                           <h2 style="color: #ce1b28">About Us</h2>
+						<p style="color: black;">Our journey into the world of software design and project management started with one simple question - how can we make life better? It is a big question and a bold statement we know, but one activity that is directly proportional for better living is nutrition. The healthier you are the happier you are, it is simple as that! 
+</p>
+		
 						<h2 style="color: #ce1b28">Developer team</h2>
-						<p>Meet the amazing individuals who were able to create this idea and make it into reality.</p>
+						<p>We are a small team of developers and designers located in Goldsmiths University, Meet the amazing individuals who were able to create this idea and make it into reality.</p>
 					</header>
+					
 					<div class="testimonials">
 						<section>
 							<div class="content">
@@ -159,6 +159,13 @@
 										<img src="images/pic01.jpg" alt="" />
 									</div>
 									<p class="credit">- <strong>Hasnat</strong> <span>CEO</span></p>
+								</div>
+								 <br>
+                                	<div class="author">
+									<div class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Omid</strong> <span>CEO</span></p>
 								</div>
 							</div>
 						</section>
@@ -205,6 +212,9 @@
 				</div>
 			</footer>
 
+
+
+
 		<!-- Scripts -->
         
 			<script src="assets/js/jquery.min.js"></script>
@@ -236,6 +246,18 @@ $(document).ready(function(){
     }
   });
 });
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 </script>
 
 	</body>

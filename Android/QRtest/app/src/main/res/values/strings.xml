@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
     <string name="app_name">QRtest</string>
     <string name="result_text_default">Please focus camera on QR code</string>
@@ -15,3 +16,30 @@
     <string name="register_here">Register Here</string>
     <string name="geofood_logo">geofood logo</string>
 </resources>
+=======
+<resources>
+    <string name="app_name">QRtest</string>
+    <string name="result_text_default">Please focus camera on QR code</string>
+    <string name="historyButton">History</string>
+    <string name="favButton">Favourites</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_track">Map</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Login!</string>
+    <string name="register_here">Register Here</string>
+    <string name="geofood_logo">geofood logo</string>
+    <string name="add_product">Add Product</string>
+    <string name="logout">Logout</string>
+    <string name="product_name">Product Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="type">Type</string>
+    <string name="source">Source</string>
+    <string name="target">Target</string>
+    <string name="confirm">Confirm</string>
+</resources>
+>>>>>>> b983218504a404fd35dde66b2b7ee18471d1ce5d
