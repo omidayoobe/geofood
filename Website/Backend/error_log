@@ -1,0 +1,173 @@
+[21-Feb-2018 17:22:56 America/New_York] PHP Warning:  require_once(../includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:22:56 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:23:21 America/New_York] PHP Warning:  require_once(../includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:23:21 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:24:28 America/New_York] PHP Warning:  require_once(../includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:24:28 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:25:08 America/New_York] PHP Warning:  require_once(../includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:25:08 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:20 America/New_York] PHP Warning:  require_once(/includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:20 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:22 America/New_York] PHP Warning:  require_once(/includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:22 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:25 America/New_York] PHP Warning:  require_once(/includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:25 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:26 America/New_York] PHP Warning:  require_once(/includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:26 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:27 America/New_York] PHP Warning:  require_once(/includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:27 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:31 America/New_York] PHP Warning:  require_once(/includes/DbOperation.php): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:27:31 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/includes/DbOperation.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/geoftigk/public_html/backend/register.php on line 2
+[21-Feb-2018 17:28:59 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 17:29:00 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 17:29:01 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 17:29:02 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 17:29:03 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 17:29:12 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 17:51:51 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 17:52:53 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 18
+[21-Feb-2018 17:54:59 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 18
+[21-Feb-2018 17:55:00 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 18
+[21-Feb-2018 17:55:01 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 18
+[21-Feb-2018 17:55:02 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 18
+[21-Feb-2018 17:57:24 America/New_York] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/geoftigk/public_html/backend/DbOperation.php on line 18
+[21-Feb-2018 19:04:26 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:26 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:26 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:32 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:32 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:32 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:35 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:35 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:35 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:37 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:37 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:37 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:38 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:38 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:38 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:38 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:38 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:38 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:38 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:38 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:38 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:39 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:39 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:39 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:39 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:39 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:39 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:39 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[21-Feb-2018 19:04:40 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[21-Feb-2018 19:04:40 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[21-Feb-2018 19:04:40 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[22-Feb-2018 11:14:37 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[22-Feb-2018 11:14:37 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[22-Feb-2018 11:14:37 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[22-Feb-2018 11:14:49 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[22-Feb-2018 11:14:49 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[22-Feb-2018 11:14:49 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[22-Feb-2018 11:14:55 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[22-Feb-2018 11:14:55 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[22-Feb-2018 11:14:55 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[22-Feb-2018 11:18:07 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[22-Feb-2018 11:18:07 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[22-Feb-2018 11:18:07 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[22-Feb-2018 11:22:17 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'geoftgik_root'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[22-Feb-2018 11:22:17 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 30
+[22-Feb-2018 11:22:17 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 31
+[04-Mar-2018 18:55:58 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 18:56:17 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 18:58:27 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 18:58:37 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 18:58:53 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:00:10 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:02:16 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:02:35 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:31 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:33 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:34 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:35 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:35 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:36 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:36 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:37 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:03:41 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:04 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:06 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:07 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:07 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:08 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:08 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:09 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:09 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:10 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:10 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:04:11 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:34 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:39 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:40 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:41 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:42 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:54 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:55 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:56 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:56 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:57 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:57 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:58 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:58 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:05:59 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:06:00 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:06:00 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:06:03 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:06:05 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:06:12 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:06:13 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:06:56 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:06:58 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:07:04 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:07:05 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:08:59 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[04-Mar-2018 19:09:01 America/New_York] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/geoftigk/public_html/backend/Constants.php on line 18
+[11-Mar-2018 14:58:34 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'askme'@'localhost' (using password: YES) in /home/geoftigk/public_html/backend/DbConnect.php on line 20
+[11-Mar-2018 14:58:34 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/geoftigk/public_html/backend/DbOperation.php on line 58
+[11-Mar-2018 14:58:34 America/New_York] PHP Fatal error:  Call to a member function bind_param() on null in /home/geoftigk/public_html/backend/DbOperation.php on line 59
+[12-Mar-2018 14:00:20 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/geoftigk/public_html/backend/DbOperation.php on line 51
+[12-Mar-2018 14:00:22 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/geoftigk/public_html/backend/DbOperation.php on line 51
+[12-Mar-2018 14:01:07 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/geoftigk/public_html/backend/DbOperation.php on line 51
+[12-Mar-2018 14:01:08 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/geoftigk/public_html/backend/DbOperation.php on line 51
+[12-Mar-2018 16:24:22 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::lastInsertId() in /home/geoftigk/public_html/backend/DbOperation.php on line 66
+[12-Mar-2018 16:25:31 America/New_York] PHP Notice:  Undefined variable: insert_id in /home/geoftigk/public_html/backend/DbOperation.php on line 66
+[12-Mar-2018 16:25:31 America/New_York] PHP Fatal error:  Cannot access empty property in /home/geoftigk/public_html/backend/DbOperation.php on line 66
+[12-Mar-2018 16:29:40 America/New_York] PHP Warning:  imagepng(): Invalid 2nd parameter, it must a filename or a stream in /home/geoftigk/public_html/backend/phpqrcode/qrimage.php on line 43
+[12-Mar-2018 16:30:12 America/New_York] PHP Warning:  imagepng(): Invalid 2nd parameter, it must a filename or a stream in /home/geoftigk/public_html/backend/phpqrcode/qrimage.php on line 43
+[12-Mar-2018 16:34:01 America/New_York] PHP Warning:  imagepng(): Invalid 2nd parameter, it must a filename or a stream in /home/geoftigk/public_html/backend/phpqrcode/qrimage.php on line 43
+[12-Mar-2018 16:36:13 America/New_York] PHP Warning:  imagepng(qrcodes/13.png): failed to open stream: No such file or directory in /home/geoftigk/public_html/backend/phpqrcode/qrimage.php on line 43

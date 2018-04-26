@@ -1,0 +1,9 @@
+# Functional Requirements for Geofood Consumer Mobile App:  #
+
+| Requirement ID | Requirement Statement                                                                        | Must/Want | Comments                                        |
+|:--------------:|----------------------------------------------------------------------------------------------|:---------:|-------------------------------------------------|
+|      FR001     | The app shall have a login screen where the users can login or register an account.          |    Must   | Database storing all accounts registered.       |
+|      FR002     | The app shall have a 'skip' option to carry on as a guest if they rather not register/login. |    Must   |                                                 |
+|      FR003     | The app shall allow users to scan QR codes on products to find out information about them.   |    Must   | Database storing all QR codes with information. |
+|      FR004     | The app shall have a history tab for users that have logged in to view their previous scans. |    Want   | Database storing history of scans.              |
+|      FR005     | The app shall let the user logout of their account.                                          |    Must   |                                                 |

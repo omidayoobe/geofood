@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974A8402C156E20DD1171420 /* Pods_GeoFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B49D22541FC82BAFA61F158 /* Pods_GeoFood.framework */; };
+		B66B6298203CA910006D1ADD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B6297203CA910006D1ADD /* TestViewController.swift */; };
+		B6790C16203C98EF0004C79D /* SnapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6790C14203C98EF0004C79D /* SnapContainerViewController.swift */; };
+		B6790C17203C98EF0004C79D /* VerticalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6790C15203C98EF0004C79D /* VerticalScrollViewController.swift */; };
+		B6790C1C203C9C140004C79D /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6790C1B203C9C140004C79D /* RightViewController.swift */; };
+		B6790C1E203C9CAE0004C79D /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6790C1D203C9CAE0004C79D /* TopViewController.swift */; };
+		B6790C20203C9D6A0004C79D /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6790C1F203C9D6A0004C79D /* LeftViewController.swift */; };
+		B68C94A3204362CB00C655B4 /* ChooseRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C94A2204362CB00C655B4 /* ChooseRoleViewController.swift */; };
+		B6AA19E3203C961E00A8BF7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA19E2203C961E00A8BF7C /* AppDelegate.swift */; };
+		B6AA19E5203C961E00A8BF7C /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA19E4203C961E00A8BF7C /* MiddleViewController.swift */; };
+		B6AA19E8203C961E00A8BF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA19E6203C961E00A8BF7C /* Main.storyboard */; };
+		B6AA19EA203C961E00A8BF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AA19E9203C961E00A8BF7C /* Assets.xcassets */; };
+		B6AA19ED203C961E00A8BF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA19EB203C961E00A8BF7C /* LaunchScreen.storyboard */; };
+		B6B142E8203F4B6900AD41E0 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B142E7203F4B6900AD41E0 /* Onboarding.storyboard */; };
+		B6B142EC203F4C0D00AD41E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B142EB203F4C0D00AD41E0 /* ViewController.swift */; };
+		B6B142EE203F4DB000AD41E0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B142ED203F4DB000AD41E0 /* OnboardingView.swift */; };
+		E7D92C08205C591A005C6F88 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D92C07205C591A005C6F88 /* CustomCells.swift */; };
+		E7D92C0A205C592D005C6F88 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D92C09205C592D005C6F88 /* FloatLabelTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B49D22541FC82BAFA61F158 /* Pods_GeoFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A923BB39127E86D9BCD73DB7 /* Pods-GeoFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoFood/Pods-GeoFood.release.xcconfig"; sourceTree = "<group>"; };
+		B66B6297203CA910006D1ADD /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B6790C14203C98EF0004C79D /* SnapContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapContainerViewController.swift; sourceTree = "<group>"; };
+		B6790C15203C98EF0004C79D /* VerticalScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalScrollViewController.swift; sourceTree = "<group>"; };
+		B6790C1B203C9C140004C79D /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		B6790C1D203C9CAE0004C79D /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		B6790C1F203C9D6A0004C79D /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeftViewController.swift; path = GeoFood/Controllers/Main/LeftViewController.swift; sourceTree = SOURCE_ROOT; };
+		B68C94A2204362CB00C655B4 /* ChooseRoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRoleViewController.swift; sourceTree = "<group>"; };
+		B6AA19DF203C961E00A8BF7C /* GeoFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AA19E2203C961E00A8BF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6AA19E4203C961E00A8BF7C /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		B6AA19E7203C961E00A8BF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6AA19E9203C961E00A8BF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6AA19EC203C961E00A8BF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6AA19EE203C961E00A8BF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B142E7203F4B6900AD41E0 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		B6B142EB203F4C0D00AD41E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6B142ED203F4DB000AD41E0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E7D92C07205C591A005C6F88 /* CustomCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		E7D92C09205C592D005C6F88 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		FCB1869A91B7B7DA711AAB1B /* Pods-GeoFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoFood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoFood/Pods-GeoFood.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AA19DC203C961E00A8BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974A8402C156E20DD1171420 /* Pods_GeoFood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB481048DEB0BADC8C21ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B49D22541FC82BAFA61F158 /* Pods_GeoFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6790C12203C98C10004C79D /* External Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B6790C13203C98DE0004C79D /* SnapchatSwipeView */,
+			);
+			path = "External Libraries";
+			sourceTree = "<group>";
+		};
+		B6790C13203C98DE0004C79D /* SnapchatSwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				B6790C14203C98EF0004C79D /* SnapContainerViewController.swift */,
+				B6790C15203C98EF0004C79D /* VerticalScrollViewController.swift */,
+			);
+			path = SnapchatSwipeView;
+			sourceTree = "<group>";
+		};
+		B6790C18203C990C0004C79D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA19E2203C961E00A8BF7C /* AppDelegate.swift */,
+				B6AA19EE203C961E00A8BF7C /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6790C19203C9A3E0004C79D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA19EB203C961E00A8BF7C /* LaunchScreen.storyboard */,
+				B6AA19E6203C961E00A8BF7C /* Main.storyboard */,
+				B6B142E7203F4B6900AD41E0 /* Onboarding.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B6790C21203C9E900004C79D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6B142EA203F4B9200AD41E0 /* Onboarding */,
+				B6B142E9203F4B8600AD41E0 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B6AA19D6203C961E00A8BF7C = {
+			isa = PBXGroup;
+			children = (
+				B6AA19E1203C961E00A8BF7C /* GeoFood */,
+				B6AA19E0203C961E00A8BF7C /* Products */,
+				C8AE1155668C024992A9241A /* Pods */,
+				0FB481048DEB0BADC8C21ADA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AA19E0203C961E00A8BF7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA19DF203C961E00A8BF7C /* GeoFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AA19E1203C961E00A8BF7C /* GeoFood */ = {
+			isa = PBXGroup;
+			children = (
+				B6790C21203C9E900004C79D /* Controllers */,
+				B6790C19203C9A3E0004C79D /* Storyboards */,
+				B6AA19E9203C961E00A8BF7C /* Assets.xcassets */,
+				B6790C12203C98C10004C79D /* External Libraries */,
+				B6790C18203C990C0004C79D /* Supporting Files */,
+			);
+			path = GeoFood;
+			sourceTree = "<group>";
+		};
+		B6B142E9203F4B8600AD41E0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B6790C1F203C9D6A0004C79D /* LeftViewController.swift */,
+				B6AA19E4203C961E00A8BF7C /* MiddleViewController.swift */,
+				E7D92C09205C592D005C6F88 /* FloatLabelTextField.swift */,
+				E7D92C07205C591A005C6F88 /* CustomCells.swift */,
+				B6790C1B203C9C140004C79D /* RightViewController.swift */,
+				B6790C1D203C9CAE0004C79D /* TopViewController.swift */,
+				B66B6297203CA910006D1ADD /* TestViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B6B142EA203F4B9200AD41E0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B6B142EB203F4C0D00AD41E0 /* ViewController.swift */,
+				B6B142ED203F4DB000AD41E0 /* OnboardingView.swift */,
+				B68C94A2204362CB00C655B4 /* ChooseRoleViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C8AE1155668C024992A9241A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCB1869A91B7B7DA711AAB1B /* Pods-GeoFood.debug.xcconfig */,
+				A923BB39127E86D9BCD73DB7 /* Pods-GeoFood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AA19DE203C961E00A8BF7C /* GeoFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AA19F1203C961E00A8BF7C /* Build configuration list for PBXNativeTarget "GeoFood" */;
+			buildPhases = (
+				D3C3F7D4EC03431299614837 /* [CP] Check Pods Manifest.lock */,
+				B6AA19DB203C961E00A8BF7C /* Sources */,
+				B6AA19DC203C961E00A8BF7C /* Frameworks */,
+				B6AA19DD203C961E00A8BF7C /* Resources */,
+				D2BB83DE8E58E83EB1F85C90 /* [CP] Embed Pods Frameworks */,
+				C754291ED0F39580B1C80EBB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoFood;
+			productName = GeoFood;
+			productReference = B6AA19DF203C961E00A8BF7C /* GeoFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AA19D7203C961E00A8BF7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Goldsmiths, University of London";
+				TargetAttributes = {
+					B6AA19DE203C961E00A8BF7C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6AA19DA203C961E00A8BF7C /* Build configuration list for PBXProject "GeoFood" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6AA19D6203C961E00A8BF7C;
+			productRefGroup = B6AA19E0203C961E00A8BF7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AA19DE203C961E00A8BF7C /* GeoFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AA19DD203C961E00A8BF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AA19ED203C961E00A8BF7C /* LaunchScreen.storyboard in Resources */,
+				B6AA19EA203C961E00A8BF7C /* Assets.xcassets in Resources */,
+				B6AA19E8203C961E00A8BF7C /* Main.storyboard in Resources */,
+				B6B142E8203F4B6900AD41E0 /* Onboarding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C754291ED0F39580B1C80EBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoFood/Pods-GeoFood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BB83DE8E58E83EB1F85C90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GeoFood/Pods-GeoFood-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoFood/Pods-GeoFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C3F7D4EC03431299614837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AA19DB203C961E00A8BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6790C1E203C9CAE0004C79D /* TopViewController.swift in Sources */,
+				B6AA19E5203C961E00A8BF7C /* MiddleViewController.swift in Sources */,
+				B66B6298203CA910006D1ADD /* TestViewController.swift in Sources */,
+				B6B142EE203F4DB000AD41E0 /* OnboardingView.swift in Sources */,
+				B6B142EC203F4C0D00AD41E0 /* ViewController.swift in Sources */,
+				B6790C17203C98EF0004C79D /* VerticalScrollViewController.swift in Sources */,
+				E7D92C0A205C592D005C6F88 /* FloatLabelTextField.swift in Sources */,
+				B6790C1C203C9C140004C79D /* RightViewController.swift in Sources */,
+				B68C94A3204362CB00C655B4 /* ChooseRoleViewController.swift in Sources */,
+				B6AA19E3203C961E00A8BF7C /* AppDelegate.swift in Sources */,
+				B6790C20203C9D6A0004C79D /* LeftViewController.swift in Sources */,
+				E7D92C08205C591A005C6F88 /* CustomCells.swift in Sources */,
+				B6790C16203C98EF0004C79D /* SnapContainerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6AA19E6203C961E00A8BF7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AA19E7203C961E00A8BF7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6AA19EB203C961E00A8BF7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AA19EC203C961E00A8BF7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6AA19EF203C961E00A8BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6AA19F0203C961E00A8BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AA19F2203C961E00A8BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB1869A91B7B7DA711AAB1B /* Pods-GeoFood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F57A5FPJBW;
+				INFOPLIST_FILE = "GeoFood/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = geofood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6AA19F3203C961E00A8BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A923BB39127E86D9BCD73DB7 /* Pods-GeoFood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F57A5FPJBW;
+				INFOPLIST_FILE = "GeoFood/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = geofood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AA19DA203C961E00A8BF7C /* Build configuration list for PBXProject "GeoFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AA19EF203C961E00A8BF7C /* Debug */,
+				B6AA19F0203C961E00A8BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AA19F1203C961E00A8BF7C /* Build configuration list for PBXNativeTarget "GeoFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AA19F2203C961E00A8BF7C /* Debug */,
+				B6AA19F3203C961E00A8BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6AA19D7203C961E00A8BF7C /* Project object */;
+}
